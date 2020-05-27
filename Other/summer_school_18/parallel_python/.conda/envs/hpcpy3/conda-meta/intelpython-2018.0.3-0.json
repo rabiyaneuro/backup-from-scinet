@@ -1,0 +1,40 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/intel/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/intelpython-2018.0.3-0",
+  "features": "",
+  "files": [
+    "INTEL_PYTHON_EULA"
+  ],
+  "fn": "intelpython-2018.0.3-0.tar.bz2",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/intelpython-2018.0.3-0",
+    "type": 1
+  },
+  "md5": "662a81173bf11c16fbad7df606c74fdd",
+  "name": "intelpython",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/intelpython-2018.0.3-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "INTEL_PYTHON_EULA",
+        "path_type": "hardlink",
+        "sha256": "b11f140749df1eeeb7048e4f899c469e1a01810c0c77b5591f94e80abdd5b69f",
+        "sha256_in_prefix": "b11f140749df1eeeb7048e4f899c469e1a01810c0c77b5591f94e80abdd5b69f",
+        "size_in_bytes": 4693
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 4006,
+  "subdir": "linux-64",
+  "track_features": "intel",
+  "url": "https://conda.anaconda.org/intel/linux-64/intelpython-2018.0.3-0.tar.bz2",
+  "version": "2018.0.3"
+}

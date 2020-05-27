@@ -1,0 +1,84 @@
+{
+  "arch": "x86_64",
+  "build": "py36_intel_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/intel/linux-64",
+  "constrains": [],
+  "depends": [
+    "intelpython",
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/pyparsing-2.2.0-py36_intel_0",
+  "features": "intel",
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/pyparsing.cpython-36.pyc",
+    "lib/python3.6/site-packages/pyparsing-2.2.0-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/pyparsing-2.2.0-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/pyparsing-2.2.0-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/pyparsing-2.2.0-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/pyparsing.py"
+  ],
+  "fn": "pyparsing-2.2.0-py36_intel_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/pyparsing-2.2.0-py36_intel_0",
+    "type": 1
+  },
+  "md5": "78afd5a4d2be3cf73b2dab0737c265e3",
+  "name": "pyparsing",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/pyparsing-2.2.0-py36_intel_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/pyparsing.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b3ac296b9da53d2d90b95a1f1644f31960c95fa511cf1cd725fa2e240898767",
+        "sha256_in_prefix": "3b3ac296b9da53d2d90b95a1f1644f31960c95fa511cf1cd725fa2e240898767",
+        "size_in_bytes": 202174
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyparsing-2.2.0-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "afada6b098f6a7ece33f30ea50515a4f92d816f48642a6c13c5bcc24e300fb91",
+        "sha256_in_prefix": "afada6b098f6a7ece33f30ea50515a4f92d816f48642a6c13c5bcc24e300fb91",
+        "size_in_bytes": 920
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyparsing-2.2.0-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "a53da553f1352adb4aa3402eeb4702bf8ecb201daba7993e1a9ab70e7210c0be",
+        "sha256_in_prefix": "a53da553f1352adb4aa3402eeb4702bf8ecb201daba7993e1a9ab70e7210c0be",
+        "size_in_bytes": 5059
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyparsing-2.2.0-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyparsing-2.2.0-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7943a31b3255865437592dab140cb698ddcb5ffec5293339192274e237e72e65",
+        "sha256_in_prefix": "7943a31b3255865437592dab140cb698ddcb5ffec5293339192274e237e72e65",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyparsing.py",
+        "path_type": "hardlink",
+        "sha256": "6040e69cedd4a0b936aba7486b8f7f9eb4e36e00b598dd05b9175c25a446b1e3",
+        "sha256_in_prefix": "6040e69cedd4a0b936aba7486b8f7f9eb4e36e00b598dd05b9175c25a446b1e3",
+        "size_in_bytes": 231039
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 97840,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/intel/linux-64/pyparsing-2.2.0-py36_intel_0.tar.bz2",
+  "version": "2.2.0"
+}

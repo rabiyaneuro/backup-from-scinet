@@ -1,0 +1,98 @@
+Delivered-To: rabiya.noori@gmail.com
+Received: by 2002:a02:b537:0:0:0:0:0 with SMTP id l52csp1118760jaj;
+        Thu, 14 Feb 2019 01:30:38 -0800 (PST)
+X-Google-Smtp-Source: AHgI3IasndIJNzkUQR5T8PnQjM467UkhUVaJPYZjkEbLe55S/Qw6qRg8YMEthUg7OaAzC9IP1sd9
+X-Received: by 2002:a6b:c005:: with SMTP id q5mr1404876iof.225.1550136638484;
+        Thu, 14 Feb 2019 01:30:38 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1550136638; cv=none;
+        d=google.com; s=arc-20160816;
+        b=MUnQW48J0pZ0D7wPFZWNHIjKpEjRAdMavFCVbgs9OHjq1olIrRQegBoOUSabfIX7h0
+         J6HcvK6twfW+gpyuSRk8+KCs9Qja1Cw3UoF9GwDwWXYMLs9oR91pDa2zm3RCVFz2U7qQ
+         Sql7nsec6nxNVnIxwOSfyN1iAu5f60pE1A0TqMhNQ1R5cNM1wmomxFc5jrnLJjo/TnAI
+         3VHPFsCyONXSXJpdYIfCrxH3iBqsllrL9bJG8vmLZ24v/HQExsViAVNUg3qKtIpfvfYO
+         YlRJaeZ6gMt5uJOhP63j297zaWgNzaHyh9AOlTCitZEcV8eBm1B8CugCG5CLnwCwaM7s
+         D/7g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=sender:content-transfer-encoding:mime-version:user-agent:message-id
+         :subject:to:from:date;
+        bh=+TNSKiCdIZTZlMk+ip0vNXjVg/hSCuQs25/1SbRsIi4=;
+        b=PKYO1JuLXjWFdCjKc3pe91j/jFodhjzMaXwiGNmQ1WnCpOl4b3FxXf2vs2cx7xQiT2
+         V2y4ws20yPYN/tc9Q7PoRih4+HqRNlZM64Y25gxCm+3eRgVu6mMxE7xSs5JWGVW5Ul/0
+         NuPrZRudxTRyj9VyLoP886zelVVnJvO9P5C8rQjN4uOzqGimZ/pZsL06k41VxCULcBm1
+         wq6mS5Y2Wk+SVnX2UZVvtcN+nMSn66gpe69/Y9bEW6dFFQn1ZQwjd9GtbnOuncE2fHvu
+         /SwCzMZR8TzaJZCznPIOkM63r6AX5aVXDZhs5XdRPWB55HBEVkVwn6E2NTdDxn373YmR
+         GMqA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of monitor@smtp.scinet.utoronto.ca designates 142.150.255.68 as permitted sender) smtp.mailfrom=monitor@smtp.scinet.utoronto.ca
+Return-Path: <monitor@smtp.scinet.utoronto.ca>
+Received: from smtp.scinet.utoronto.ca (vm1.scinet.utoronto.ca. [142.150.255.68])
+        by mx.google.com with ESMTPS id 15si1032174itw.17.2019.02.14.01.30.38
+        for <rabiya.noori@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 14 Feb 2019 01:30:38 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of monitor@smtp.scinet.utoronto.ca designates 142.150.255.68 as permitted sender) client-ip=142.150.255.68;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of monitor@smtp.scinet.utoronto.ca designates 142.150.255.68 as permitted sender) smtp.mailfrom=monitor@smtp.scinet.utoronto.ca
+Received: from [142.150.188.74] (helo=monitor.scinet.utoronto.ca)
+	by smtp.scinet.utoronto.ca with esmtpsa (TLSv1.2:DHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.85)
+	(envelope-from <monitor@smtp.scinet.utoronto.ca>)
+	id 1guDKo-0007fu-QR
+	for rabiya.noori@gmail.com; Thu, 14 Feb 2019 04:29:34 -0500
+Received: from nia-m6-sch02.scinet.local ([172.16.206.10])
+	by monitor.scinet.utoronto.ca with smtp (Exim 4.90_1)
+	(envelope-from <noreply@slurm.niagara>)
+	id 1guDKn-0008CU-6D
+	for rabiya.noori@gmail.com; Thu, 14 Feb 2019 04:29:33 -0500
+Date: Thu, 14 Feb 2019 04:29:33 -0500
+From: noreply@slurm.niagara
+To: rabiya.noori@gmail.com
+Subject: SLURM Job_id=948883 Name=cond vel v4_short Ended, Run time
+ 03:39:50, COMPLETED, ExitCode 0
+Message-ID: <5c6534fd.behgPW5+JVxib4tv%noreply@slurm.niagara>
+User-Agent: Heirloom mailx 12.5 7/5/10
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-SciNet: Internal
+Sender: monitor@scinet.utoronto.ca
+X-SciNet: Relay
+X-Spam-Note: SpamAssassin skipped for trusted hosts
+
+scontrol show jobid 948883
+JobId=948883 JobName=cond vel v4_short
+   UserId=noorir(3060618) GroupId=lfefebvr(6005718) MCS_label=N/A
+   Priority=325806 Nice=0 Account=def-lfefebvr QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=03:39:50 TimeLimit=05:00:00 TimeMin=N/A
+   SubmitTime=2019-02-13T19:37:35 EligibleTime=2019-02-13T19:37:35
+   StartTime=2019-02-14T00:49:40 EndTime=2019-02-14T04:29:30 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   LastSchedEval=2019-02-14T00:49:40
+   Partition=compute AllocNode:Sid=nia-login01:261660
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=nia[1192-1193]
+   BatchHost=nia1192
+   NumNodes=2 NumCPUs=160 NumTasks=80 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=160,node=2,billing=80
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=0 MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   Gres=(null) Reservation=(null)
+   OverSubscribe=NO Contiguous=0 Licenses=(null) Network=(null)
+   Command=/gpfs/fs0/scratch/l/lfefebvr/noorir/model/par_job_delayAUTO.sh
+   WorkDir=/gpfs/fs0/scratch/l/lfefebvr/noorir/model
+   StdErr=/gpfs/fs0/scratch/l/lfefebvr/noorir/model/outputLOG948883.txt
+   StdIn=/dev/null
+   StdOut=/gpfs/fs0/scratch/l/lfefebvr/noorir/model/outputLOG948883.txt
+   Power=
+   
+
+sacct -j 948883
+       JobID    JobName    Account    Elapsed  MaxVMSize     MaxRSS  SystemCPU    UserCPU ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- ---------- ---------- -------- 
+948883       cond vel + def-lfefe+   03:39:50                        23:19.294 12-03:11:+      0:0 
+948883.batch      batch def-lfefe+   03:39:50    670768K     11088K  00:00.918  00:00.502      0:0 
+948883.exte+     extern def-lfefe+   03:39:50    168876K      1272K  00:00.001   00:00:00      0:0 
+948883.0      pmi_proxy def-lfefe+   03:39:43  74237292K   7442680K  23:18.374 12-03:11:+      0:0 

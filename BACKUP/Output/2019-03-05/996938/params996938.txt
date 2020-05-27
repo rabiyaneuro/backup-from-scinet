@@ -1,0 +1,1 @@
+--nodes = 3 --ntasks= 120 --param_file = load_genvars_delays1.py job_id = 996938

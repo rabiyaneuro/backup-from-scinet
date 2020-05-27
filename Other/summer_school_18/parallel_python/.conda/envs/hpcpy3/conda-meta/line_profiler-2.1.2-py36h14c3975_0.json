@@ -1,0 +1,152 @@
+{
+  "arch": "x86_64",
+  "build": "py36h14c3975_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "ipython >=0.13",
+    "libgcc-ng >=7.2.0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/line_profiler-2.1.2-py36h14c3975_0",
+  "features": "",
+  "files": [
+    "bin/kernprof",
+    "lib/python3.6/site-packages/__pycache__/kernprof.cpython-36.pyc",
+    "lib/python3.6/site-packages/__pycache__/line_profiler.cpython-36.pyc",
+    "lib/python3.6/site-packages/__pycache__/line_profiler_py35.cpython-36.pyc",
+    "lib/python3.6/site-packages/_line_profiler.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/kernprof.py",
+    "lib/python3.6/site-packages/line_profiler-2.1.2-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/line_profiler-2.1.2-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/line_profiler-2.1.2-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/line_profiler-2.1.2-py3.6.egg-info/entry_points.txt",
+    "lib/python3.6/site-packages/line_profiler-2.1.2-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/line_profiler-2.1.2-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/line_profiler.py",
+    "lib/python3.6/site-packages/line_profiler_py35.py"
+  ],
+  "fn": "line_profiler-2.1.2-py36h14c3975_0.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/line_profiler-2.1.2-py36h14c3975_0",
+    "type": 1
+  },
+  "md5": "1686da4cfdb0bb95aa9d6bce6bedd0ea",
+  "name": "line_profiler",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/line_profiler-2.1.2-py36h14c3975_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/kernprof",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "00590652f4913372e1cc834d51b45ba268826358abb45eab470fa877fa5cd9b6",
+        "sha256_in_prefix": "3e573298e5e21c5c39e00b9e8b9a70409dd3da6cfd199bdc049264d9828ba979",
+        "size_in_bytes": 238
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/kernprof.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad67f496d0ead031e8999d1fdcf183a725dbf8620ca1f80019ddb54fc46c204a",
+        "sha256_in_prefix": "ad67f496d0ead031e8999d1fdcf183a725dbf8620ca1f80019ddb54fc46c204a",
+        "size_in_bytes": 6186
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/line_profiler.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "78aa6411c5281bbbf8985a185c35ca4cedc8f2c5538a617ad97f5ad904d19b25",
+        "sha256_in_prefix": "78aa6411c5281bbbf8985a185c35ca4cedc8f2c5538a617ad97f5ad904d19b25",
+        "size_in_bytes": 11576
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/line_profiler_py35.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a47423dfa56c1cc8946142061dc7813555144d1580f2d4b2b1a24d268c68b7df",
+        "sha256_in_prefix": "a47423dfa56c1cc8946142061dc7813555144d1580f2d4b2b1a24d268c68b7df",
+        "size_in_bytes": 654
+      },
+      {
+        "_path": "lib/python3.6/site-packages/_line_profiler.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "1dba85da652c95a353c5e2cac5507960a0e374aebf723f0d87f3ed2977634308",
+        "sha256_in_prefix": "1dba85da652c95a353c5e2cac5507960a0e374aebf723f0d87f3ed2977634308",
+        "size_in_bytes": 130184
+      },
+      {
+        "_path": "lib/python3.6/site-packages/kernprof.py",
+        "path_type": "hardlink",
+        "sha256": "ec07890b6c3a1352b9c50db3c213f57d488acbe1deec5e0dadccd520397a0520",
+        "sha256_in_prefix": "ec07890b6c3a1352b9c50db3c213f57d488acbe1deec5e0dadccd520397a0520",
+        "size_in_bytes": 7306
+      },
+      {
+        "_path": "lib/python3.6/site-packages/line_profiler-2.1.2-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "a080539b6cd45ddfca0736110df527f85f8045aa1a442d8f63db504a39abb130",
+        "sha256_in_prefix": "a080539b6cd45ddfca0736110df527f85f8045aa1a442d8f63db504a39abb130",
+        "size_in_bytes": 1494
+      },
+      {
+        "_path": "lib/python3.6/site-packages/line_profiler-2.1.2-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "a2220fb9f947d60a9d5a823ec35959da1e8cf05d584b3f24c0b177ad4c0b3df6",
+        "sha256_in_prefix": "a2220fb9f947d60a9d5a823ec35959da1e8cf05d584b3f24c0b177ad4c0b3df6",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "lib/python3.6/site-packages/line_profiler-2.1.2-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/line_profiler-2.1.2-py3.6.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "5bc4f18c0e9ed72a4be657aa4b60f893c0aa9d380103bf5c7a8f3ab2924c9556",
+        "sha256_in_prefix": "5bc4f18c0e9ed72a4be657aa4b60f893c0aa9d380103bf5c7a8f3ab2924c9556",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "lib/python3.6/site-packages/line_profiler-2.1.2-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "33e463e75a935fd321f17e4ba0590d2d7c7c7886af56ace25f4c2c17c25fb25b",
+        "sha256_in_prefix": "33e463e75a935fd321f17e4ba0590d2d7c7c7886af56ace25f4c2c17c25fb25b",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python3.6/site-packages/line_profiler-2.1.2-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a42d990c4a18d363067dbbe1aa3e884713a2392ceaf6474ceb36288dd4760a5a",
+        "sha256_in_prefix": "a42d990c4a18d363067dbbe1aa3e884713a2392ceaf6474ceb36288dd4760a5a",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "lib/python3.6/site-packages/line_profiler.py",
+        "path_type": "hardlink",
+        "sha256": "2c425cd6becf94d74c76ff89d8523bd28024652aa2049d32d797e441f36dfe91",
+        "sha256_in_prefix": "2c425cd6becf94d74c76ff89d8523bd28024652aa2049d32d797e441f36dfe91",
+        "size_in_bytes": 13683
+      },
+      {
+        "_path": "lib/python3.6/site-packages/line_profiler_py35.py",
+        "path_type": "hardlink",
+        "sha256": "dd07d032a9abe6518de02d461e23cea2da79d8d81d45342bcc003d392c1bac19",
+        "sha256_in_prefix": "dd07d032a9abe6518de02d461e23cea2da79d8d81d45342bcc003d392c1bac19",
+        "size_in_bytes": 425
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "line_profiler",
+  "size": 65136,
+  "subdir": "linux-64",
+  "timestamp": 1522773913002,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/line_profiler-2.1.2-py36h14c3975_0.tar.bz2",
+  "version": "2.1.2"
+}

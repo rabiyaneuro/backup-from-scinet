@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/bb/scinet/course/ss2018/2_ds/4_parallelpython/.conda/envs/hpcpy3
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.23.1
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz -ldl -lpthread 
+Cflags: -I${includedir}

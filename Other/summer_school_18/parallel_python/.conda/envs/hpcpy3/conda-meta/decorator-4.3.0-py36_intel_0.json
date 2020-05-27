@@ -1,0 +1,100 @@
+{
+  "arch": "x86_64",
+  "build": "py36_intel_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/intel/linux-64",
+  "constrains": [],
+  "depends": [
+    "intelpython",
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/decorator-4.3.0-py36_intel_0",
+  "features": "intel",
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/decorator.cpython-36.pyc",
+    "lib/python3.6/site-packages/decorator-4.3.0.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/decorator-4.3.0.dist-info/METADATA",
+    "lib/python3.6/site-packages/decorator-4.3.0.dist-info/RECORD",
+    "lib/python3.6/site-packages/decorator-4.3.0.dist-info/WHEEL",
+    "lib/python3.6/site-packages/decorator-4.3.0.dist-info/pbr.json",
+    "lib/python3.6/site-packages/decorator-4.3.0.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/decorator.py"
+  ],
+  "fn": "decorator-4.3.0-py36_intel_0.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/decorator-4.3.0-py36_intel_0",
+    "type": 1
+  },
+  "md5": "e7913390acd8d5fb96e248d999d5c8fc",
+  "name": "decorator",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/decorator-4.3.0-py36_intel_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/decorator.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d8bef10f86f927fbb48184904194820579117e0e72700cb3d134dfdfe592dd1d",
+        "sha256_in_prefix": "d8bef10f86f927fbb48184904194820579117e0e72700cb3d134dfdfe592dd1d",
+        "size_in_bytes": 12215
+      },
+      {
+        "_path": "lib/python3.6/site-packages/decorator-4.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python3.6/site-packages/decorator-4.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "23dbddf3b53ff74efd0153e597884d35947f27f7fb8499bc2287214ba237e42d",
+        "sha256_in_prefix": "23dbddf3b53ff74efd0153e597884d35947f27f7fb8499bc2287214ba237e42d",
+        "size_in_bytes": 2722
+      },
+      {
+        "_path": "lib/python3.6/site-packages/decorator-4.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ffd725459b6a6f655660d1ba4ddc958114b28488c62b2fc117f0df838e11f60f",
+        "sha256_in_prefix": "ffd725459b6a6f655660d1ba4ddc958114b28488c62b2fc117f0df838e11f60f",
+        "size_in_bytes": 602
+      },
+      {
+        "_path": "lib/python3.6/site-packages/decorator-4.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "2770ac4e4ecc7f624d532848988fa68d7f9f988e280e3ca25e0593e2a8198821",
+        "sha256_in_prefix": "2770ac4e4ecc7f624d532848988fa68d7f9f988e280e3ca25e0593e2a8198821",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.6/site-packages/decorator-4.3.0.dist-info/pbr.json",
+        "path_type": "hardlink",
+        "sha256": "00bf38a14516407c2477c3823e12d1a363498d4e4c0dd99732a447bfea68b2ab",
+        "sha256_in_prefix": "00bf38a14516407c2477c3823e12d1a363498d4e4c0dd99732a447bfea68b2ab",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "lib/python3.6/site-packages/decorator-4.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
+        "sha256_in_prefix": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.6/site-packages/decorator.py",
+        "path_type": "hardlink",
+        "sha256": "74219fadf81a4c993d58f80b97defd3fe144f39be92615a6a363c5ed459212f8",
+        "sha256_in_prefix": "74219fadf81a4c993d58f80b97defd3fe144f39be92615a6a363c5ed459212f8",
+        "size_in_bytes": 16298
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 15714,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/intel/linux-64/decorator-4.3.0-py36_intel_0.tar.bz2",
+  "version": "4.3.0"
+}

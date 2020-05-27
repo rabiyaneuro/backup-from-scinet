@@ -1,0 +1,9 @@
+prefix=/bb/scinet/course/ss2018/2_ds/4_parallelpython/.conda/envs/hpcpy3
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 1.0.2o
+Requires: libssl libcrypto

@@ -1,0 +1,301 @@
+{
+  "arch": "x86_64",
+  "build": "py36_intel_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/intel/linux-64",
+  "constrains": [],
+  "depends": [
+    "intelpython",
+    "python 3.6*",
+    "six"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/python-dateutil-2.6.0-py36_intel_3",
+  "features": "intel",
+  "files": [
+    "lib/python3.6/site-packages/dateutil/__init__.py",
+    "lib/python3.6/site-packages/dateutil/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/dateutil/__pycache__/_common.cpython-36.pyc",
+    "lib/python3.6/site-packages/dateutil/__pycache__/easter.cpython-36.pyc",
+    "lib/python3.6/site-packages/dateutil/__pycache__/parser.cpython-36.pyc",
+    "lib/python3.6/site-packages/dateutil/__pycache__/relativedelta.cpython-36.pyc",
+    "lib/python3.6/site-packages/dateutil/__pycache__/rrule.cpython-36.pyc",
+    "lib/python3.6/site-packages/dateutil/__pycache__/tzwin.cpython-36.pyc",
+    "lib/python3.6/site-packages/dateutil/_common.py",
+    "lib/python3.6/site-packages/dateutil/easter.py",
+    "lib/python3.6/site-packages/dateutil/parser.py",
+    "lib/python3.6/site-packages/dateutil/relativedelta.py",
+    "lib/python3.6/site-packages/dateutil/rrule.py",
+    "lib/python3.6/site-packages/dateutil/tz/__init__.py",
+    "lib/python3.6/site-packages/dateutil/tz/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/dateutil/tz/__pycache__/_common.cpython-36.pyc",
+    "lib/python3.6/site-packages/dateutil/tz/__pycache__/tz.cpython-36.pyc",
+    "lib/python3.6/site-packages/dateutil/tz/__pycache__/win.cpython-36.pyc",
+    "lib/python3.6/site-packages/dateutil/tz/_common.py",
+    "lib/python3.6/site-packages/dateutil/tz/tz.py",
+    "lib/python3.6/site-packages/dateutil/tz/win.py",
+    "lib/python3.6/site-packages/dateutil/tzwin.py",
+    "lib/python3.6/site-packages/dateutil/zoneinfo/__init__.py",
+    "lib/python3.6/site-packages/dateutil/zoneinfo/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/dateutil/zoneinfo/__pycache__/rebuild.cpython-36.pyc",
+    "lib/python3.6/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz",
+    "lib/python3.6/site-packages/dateutil/zoneinfo/rebuild.py",
+    "lib/python3.6/site-packages/python_dateutil-2.6.0-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/python_dateutil-2.6.0-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/python_dateutil-2.6.0-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/python_dateutil-2.6.0-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/python_dateutil-2.6.0-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/python_dateutil-2.6.0-py3.6.egg-info/zip-safe"
+  ],
+  "fn": "python-dateutil-2.6.0-py36_intel_3.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/python-dateutil-2.6.0-py36_intel_3",
+    "type": 1
+  },
+  "md5": "82b1759fc7b17f508066a9500a7c4d8c",
+  "name": "python-dateutil",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/python-dateutil-2.6.0-py36_intel_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5b4da28b0f1cdf48169fde9f0e81faab7afc4500bd84ba96b7c1b965d794c3d5",
+        "sha256_in_prefix": "5b4da28b0f1cdf48169fde9f0e81faab7afc4500bd84ba96b7c1b965d794c3d5",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d1f3d26505d4e81b5db4d5f27581be3a0299f09651ada5a2e1ff3dcf5158aca7",
+        "sha256_in_prefix": "d1f3d26505d4e81b5db4d5f27581be3a0299f09651ada5a2e1ff3dcf5158aca7",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/__pycache__/_common.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2394ec71c91c9c302d2ffdd686a29fcdd0f0e6a623d2557d6f9e9f85fd9ece9",
+        "sha256_in_prefix": "c2394ec71c91c9c302d2ffdd686a29fcdd0f0e6a623d2557d6f9e9f85fd9ece9",
+        "size_in_bytes": 1143
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/__pycache__/easter.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "87d1ef62b794753eb339717b5b67f32ebcd2a58b08bedb63dd85a794ca3ba8f5",
+        "sha256_in_prefix": "87d1ef62b794753eb339717b5b67f32ebcd2a58b08bedb63dd85a794ca3ba8f5",
+        "size_in_bytes": 2096
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/__pycache__/parser.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "358fc8e55e66a359dc5f1ead6cc9988a334127e17862e736dc97dda2fc2eba85",
+        "sha256_in_prefix": "358fc8e55e66a359dc5f1ead6cc9988a334127e17862e736dc97dda2fc2eba85",
+        "size_in_bytes": 33288
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/__pycache__/relativedelta.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "86312f064b2720d86b4b33bfcda44d6e3be66947b92599629392b256f4155214",
+        "sha256_in_prefix": "86312f064b2720d86b4b33bfcda44d6e3be66947b92599629392b256f4155214",
+        "size_in_bytes": 13898
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/__pycache__/rrule.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f07e1cca4bd5e8472b6f7266547c661342ec164716569c05e0959d9ef14f9b7",
+        "sha256_in_prefix": "0f07e1cca4bd5e8472b6f7266547c661342ec164716569c05e0959d9ef14f9b7",
+        "size_in_bytes": 40289
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/__pycache__/tzwin.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "6657c10afa373ad3605d733628f7668407c1a3807872f3c06c26930ee4db9995",
+        "sha256_in_prefix": "6657c10afa373ad3605d733628f7668407c1a3807872f3c06c26930ee4db9995",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/_common.py",
+        "path_type": "hardlink",
+        "sha256": "0a995f5c02ce3cf4b61c5a1c1b7c4e04f2be7182f9b72f044a94298c7eaaa2b3",
+        "sha256_in_prefix": "0a995f5c02ce3cf4b61c5a1c1b7c4e04f2be7182f9b72f044a94298c7eaaa2b3",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/easter.py",
+        "path_type": "hardlink",
+        "sha256": "e9640e4572ace647407d44f7a23bdce1f2884e3f753be7d3c9c66f95bda5d761",
+        "sha256_in_prefix": "e9640e4572ace647407d44f7a23bdce1f2884e3f753be7d3c9c66f95bda5d761",
+        "size_in_bytes": 2629
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/parser.py",
+        "path_type": "hardlink",
+        "sha256": "53e9b56f96030ef76ea1a1ed33c7a73edd3662cd43d8e4c24ee7a443eea6310f",
+        "sha256_in_prefix": "53e9b56f96030ef76ea1a1ed33c7a73edd3662cd43d8e4c24ee7a443eea6310f",
+        "size_in_bytes": 50234
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/relativedelta.py",
+        "path_type": "hardlink",
+        "sha256": "c987faef6cbf36b7d24ff76f1df10aceedacc03b7754bd2a46ffc0c12971024f",
+        "sha256_in_prefix": "c987faef6cbf36b7d24ff76f1df10aceedacc03b7754bd2a46ffc0c12971024f",
+        "size_in_bytes": 21986
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/rrule.py",
+        "path_type": "hardlink",
+        "sha256": "794416f664081403e1948e97208c5003bba4ba85325e2f8633bef5a8d3a71322",
+        "sha256_in_prefix": "794416f664081403e1948e97208c5003bba4ba85325e2f8633bef5a8d3a71322",
+        "size_in_bytes": 61792
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/tz/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5c6ba91c60a72ad8b6632a057d301b35b015b16e7a9ceac56d1e3b3dcf36dc50",
+        "sha256_in_prefix": "5c6ba91c60a72ad8b6632a057d301b35b015b16e7a9ceac56d1e3b3dcf36dc50",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/tz/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd1391dab79d2f8db41f0b7bde16aad3274ef719f71bddedaa224a9ea0cc8869",
+        "sha256_in_prefix": "dd1391dab79d2f8db41f0b7bde16aad3274ef719f71bddedaa224a9ea0cc8869",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/tz/__pycache__/_common.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "aab808385afbc8bb1ea7a1f826bd540d4ee920ed31b895d0c3ba81fb19fb5e20",
+        "sha256_in_prefix": "aab808385afbc8bb1ea7a1f826bd540d4ee920ed31b895d0c3ba81fb19fb5e20",
+        "size_in_bytes": 11046
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/tz/__pycache__/tz.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "1218254813b3d302abbc86d5713e2abb29169ef3d1b90c246e9db12f5810265b",
+        "sha256_in_prefix": "1218254813b3d302abbc86d5713e2abb29169ef3d1b90c246e9db12f5810265b",
+        "size_in_bytes": 34350
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/tz/__pycache__/win.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5fead1f1f9423a442bce1248f6f6697ee3d2273ef805c5afe4d9149559b10ee7",
+        "sha256_in_prefix": "5fead1f1f9423a442bce1248f6f6697ee3d2273ef805c5afe4d9149559b10ee7",
+        "size_in_bytes": 9531
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/tz/_common.py",
+        "path_type": "hardlink",
+        "sha256": "9f1aede4cd211554385d736da54f7ba9b8349c3fa878dccbb48b322d526238f2",
+        "sha256_in_prefix": "9f1aede4cd211554385d736da54f7ba9b8349c3fa878dccbb48b322d526238f2",
+        "size_in_bytes": 11744
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/tz/tz.py",
+        "path_type": "hardlink",
+        "sha256": "80b117e549880a2cda56db39f9a225e93df13c60cf69bd951c49f66e59f2b21c",
+        "sha256_in_prefix": "80b117e549880a2cda56db39f9a225e93df13c60cf69bd951c49f66e59f2b21c",
+        "size_in_bytes": 48924
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/tz/win.py",
+        "path_type": "hardlink",
+        "sha256": "10016d81f3c6ee2ad7dae9e30ed4f6ee03880c3d6e44c5491fb388bcb9def37f",
+        "sha256_in_prefix": "10016d81f3c6ee2ad7dae9e30ed4f6ee03880c3d6e44c5491fb388bcb9def37f",
+        "size_in_bytes": 11466
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/tzwin.py",
+        "path_type": "hardlink",
+        "sha256": "28080dc796e22f3ab7a8653f9d39045a4fa2105d45cc0a4e638dfc36bd9d91f0",
+        "sha256_in_prefix": "28080dc796e22f3ab7a8653f9d39045a4fa2105d45cc0a4e638dfc36bd9d91f0",
+        "size_in_bytes": 58
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/zoneinfo/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ab62859afd37758df1f7be0378899f0a90120a6e647bd8627ce81e5aa796922e",
+        "sha256_in_prefix": "ab62859afd37758df1f7be0378899f0a90120a6e647bd8627ce81e5aa796922e",
+        "size_in_bytes": 6810
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/zoneinfo/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2ef521fa421b7bbe650b36aa36514844bb60eba18feb57a442c1694a4aea0e3",
+        "sha256_in_prefix": "e2ef521fa421b7bbe650b36aa36514844bb60eba18feb57a442c1694a4aea0e3",
+        "size_in_bytes": 5911
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/zoneinfo/__pycache__/rebuild.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d532d0ef32c98161ddcf6874c7a31576ab919b6b322be22d5ba7272f365591f",
+        "sha256_in_prefix": "7d532d0ef32c98161ddcf6874c7a31576ab919b6b322be22d5ba7272f365591f",
+        "size_in_bytes": 1824
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz",
+        "path_type": "hardlink",
+        "sha256": "85c0864380d56db71ffe17bf45aaade13e8c6da0727b20d6d50012e64284e0d5",
+        "sha256_in_prefix": "85c0864380d56db71ffe17bf45aaade13e8c6da0727b20d6d50012e64284e0d5",
+        "size_in_bytes": 139671
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dateutil/zoneinfo/rebuild.py",
+        "path_type": "hardlink",
+        "sha256": "e1638766e65a6c6e9b694475b35def61c5afff232675812cc9e5ac8326fe695b",
+        "sha256_in_prefix": "e1638766e65a6c6e9b694475b35def61c5afff232675812cc9e5ac8326fe695b",
+        "size_in_bytes": 1688
+      },
+      {
+        "_path": "lib/python3.6/site-packages/python_dateutil-2.6.0-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "548965d6a62784703081d3a4b896819ea81cd9648e5161471b0c8e7d683bdf6f",
+        "sha256_in_prefix": "548965d6a62784703081d3a4b896819ea81cd9648e5161471b0c8e7d683bdf6f",
+        "size_in_bytes": 1136
+      },
+      {
+        "_path": "lib/python3.6/site-packages/python_dateutil-2.6.0-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "b5052a8e536781081aef5381de10027bde4e7facc5b1bf08f1f38906d779197c",
+        "sha256_in_prefix": "b5052a8e536781081aef5381de10027bde4e7facc5b1bf08f1f38906d779197c",
+        "size_in_bytes": 1217
+      },
+      {
+        "_path": "lib/python3.6/site-packages/python_dateutil-2.6.0-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/python_dateutil-2.6.0-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "769fd50434f35390cc3c43ab0c1fc632881fdd3f15f0ad9e0df958b753c70b01",
+        "sha256_in_prefix": "769fd50434f35390cc3c43ab0c1fc632881fdd3f15f0ad9e0df958b753c70b01",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.6/site-packages/python_dateutil-2.6.0-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e2d8dd5a485166f17b2c0fc161efcbf60076c3fa766becf9cba02b8da464a2df",
+        "sha256_in_prefix": "e2d8dd5a485166f17b2c0fc161efcbf60076c3fa766becf9cba02b8da464a2df",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.6/site-packages/python_dateutil-2.6.0-py3.6.egg-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 242644,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/intel/linux-64/python-dateutil-2.6.0-py36_intel_3.tar.bz2",
+  "version": "2.6.0"
+}

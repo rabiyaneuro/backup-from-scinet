@@ -1,0 +1,355 @@
+{
+  "arch": "x86_64",
+  "build": "py36_intel_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/intel/linux-64",
+  "constrains": [],
+  "depends": [
+    "impi_rt",
+    "intelpython",
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/mpi4py-3.0.0-py36_intel_0",
+  "features": "intel",
+  "files": [
+    "lib/python3.6/site-packages/mpi4py-3.0.0-py3.6.egg-info",
+    "lib/python3.6/site-packages/mpi4py/MPI.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/mpi4py/MPI.pxd",
+    "lib/python3.6/site-packages/mpi4py/__init__.pxd",
+    "lib/python3.6/site-packages/mpi4py/__init__.py",
+    "lib/python3.6/site-packages/mpi4py/__main__.py",
+    "lib/python3.6/site-packages/mpi4py/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/mpi4py/__pycache__/__main__.cpython-36.pyc",
+    "lib/python3.6/site-packages/mpi4py/__pycache__/bench.cpython-36.pyc",
+    "lib/python3.6/site-packages/mpi4py/__pycache__/run.cpython-36.pyc",
+    "lib/python3.6/site-packages/mpi4py/bench.py",
+    "lib/python3.6/site-packages/mpi4py/dl.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/mpi4py/futures/__init__.py",
+    "lib/python3.6/site-packages/mpi4py/futures/__main__.py",
+    "lib/python3.6/site-packages/mpi4py/futures/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/mpi4py/futures/__pycache__/__main__.cpython-36.pyc",
+    "lib/python3.6/site-packages/mpi4py/futures/__pycache__/_base.cpython-36.pyc",
+    "lib/python3.6/site-packages/mpi4py/futures/__pycache__/_lib.cpython-36.pyc",
+    "lib/python3.6/site-packages/mpi4py/futures/__pycache__/aplus.cpython-36.pyc",
+    "lib/python3.6/site-packages/mpi4py/futures/__pycache__/pool.cpython-36.pyc",
+    "lib/python3.6/site-packages/mpi4py/futures/__pycache__/server.cpython-36.pyc",
+    "lib/python3.6/site-packages/mpi4py/futures/_base.py",
+    "lib/python3.6/site-packages/mpi4py/futures/_lib.py",
+    "lib/python3.6/site-packages/mpi4py/futures/aplus.py",
+    "lib/python3.6/site-packages/mpi4py/futures/pool.py",
+    "lib/python3.6/site-packages/mpi4py/futures/server.py",
+    "lib/python3.6/site-packages/mpi4py/include/mpi4py/mpi.pxi",
+    "lib/python3.6/site-packages/mpi4py/include/mpi4py/mpi4py.MPI.h",
+    "lib/python3.6/site-packages/mpi4py/include/mpi4py/mpi4py.MPI_api.h",
+    "lib/python3.6/site-packages/mpi4py/include/mpi4py/mpi4py.h",
+    "lib/python3.6/site-packages/mpi4py/include/mpi4py/mpi4py.i",
+    "lib/python3.6/site-packages/mpi4py/lib-pmpi/libmpe.so",
+    "lib/python3.6/site-packages/mpi4py/lib-pmpi/libvt-hyb.so",
+    "lib/python3.6/site-packages/mpi4py/lib-pmpi/libvt-mpi.so",
+    "lib/python3.6/site-packages/mpi4py/lib-pmpi/libvt.so",
+    "lib/python3.6/site-packages/mpi4py/libmpi.pxd",
+    "lib/python3.6/site-packages/mpi4py/mpi.cfg",
+    "lib/python3.6/site-packages/mpi4py/run.py"
+  ],
+  "fn": "mpi4py-3.0.0-py36_intel_0.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/mpi4py-3.0.0-py36_intel_0",
+    "type": 1
+  },
+  "md5": "d7ad2bba2c059bb9b4a6b9726d2ec485",
+  "name": "mpi4py",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/mpi4py-3.0.0-py36_intel_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py-3.0.0-py3.6.egg-info",
+        "path_type": "hardlink",
+        "sha256": "e6e7fec98394f5c4b6cab65cbfda9dff2e995f8f208ca3f2492bc701cc4bf730",
+        "sha256_in_prefix": "e6e7fec98394f5c4b6cab65cbfda9dff2e995f8f208ca3f2492bc701cc4bf730",
+        "size_in_bytes": 6099
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/MPI.cpython-36m-x86_64-linux-gnu.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/workdir/conda-build/mpi4py_1525414672675/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "410010317ab83fb2575e299ebcf00f9a9bad50ec7d48e77a6cd90bc91ee9625d",
+        "sha256_in_prefix": "75ba705ef602480ad8a946cf472df57727aa593a414381ddfb0ff2080c69a3e5",
+        "size_in_bytes": 8112960
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/MPI.pxd",
+        "path_type": "hardlink",
+        "sha256": "fbf6a76ea369b429a4e2d89ea7c3912b6f449fb66f14e6ce6b370ac49ade807a",
+        "sha256_in_prefix": "fbf6a76ea369b429a4e2d89ea7c3912b6f449fb66f14e6ce6b370ac49ade807a",
+        "size_in_bytes": 3637
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "ada385100b744e7e5e25e54b45acff177e279b615453865da1966d0d4057f7d8",
+        "sha256_in_prefix": "ada385100b744e7e5e25e54b45acff177e279b615453865da1966d0d4057f7d8",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5a31c0ef2b10b161e2c29237e1a3d55a1f2655005b67c118cadd704c8d2867a3",
+        "sha256_in_prefix": "5a31c0ef2b10b161e2c29237e1a3d55a1f2655005b67c118cadd704c8d2867a3",
+        "size_in_bytes": 5136
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "24539a864b1b2c399fafd485217a3287f285c016a8cf123a02d0503704cb4e47",
+        "sha256_in_prefix": "24539a864b1b2c399fafd485217a3287f285c016a8cf123a02d0503704cb4e47",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d37f73addade503cda2286988ce1409bdd08dd5be501464350cb51e931071a33",
+        "sha256_in_prefix": "d37f73addade503cda2286988ce1409bdd08dd5be501464350cb51e931071a33",
+        "size_in_bytes": 4996
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/__pycache__/__main__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a8830135ae126bc1c92c671054a210cc9c403abb2e15bbb09747cf324122b7f0",
+        "sha256_in_prefix": "a8830135ae126bc1c92c671054a210cc9c403abb2e15bbb09747cf324122b7f0",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/__pycache__/bench.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c3801891707b87b3dc43e16638cd1ae11ea2f06535252cbba520ba6963c0ff3",
+        "sha256_in_prefix": "2c3801891707b87b3dc43e16638cd1ae11ea2f06535252cbba520ba6963c0ff3",
+        "size_in_bytes": 4338
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/__pycache__/run.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "702edfb71a63c7c3f44abd32479252aab6b8326b016a0dfe584f97717ee59d99",
+        "sha256_in_prefix": "702edfb71a63c7c3f44abd32479252aab6b8326b016a0dfe584f97717ee59d99",
+        "size_in_bytes": 6360
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/bench.py",
+        "path_type": "hardlink",
+        "sha256": "1c63ae8a5fc56282ee7b68ec5958670672275f058bf430548662909aed623c1e",
+        "sha256_in_prefix": "1c63ae8a5fc56282ee7b68ec5958670672275f058bf430548662909aed623c1e",
+        "size_in_bytes": 6137
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/dl.cpython-36m-x86_64-linux-gnu.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/workdir/conda-build/mpi4py_1525414672675/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "34d2dd0dd1140ac80de211956440b1b3e82132ed0b4d37a0a9700e0cd2c9ddd6",
+        "sha256_in_prefix": "ed75d6a75b4dd5592f8084188064719ecaaa8592c5355fc5f2179823e887d5be",
+        "size_in_bytes": 30368
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "91ed23e76d6f387441b548faf60de724a5d4680d21ac8bb613c3001f6a705909",
+        "sha256_in_prefix": "91ed23e76d6f387441b548faf60de724a5d4680d21ac8bb613c3001f6a705909",
+        "size_in_bytes": 798
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "0f983a52f98fe4082680c03dac500a8321f176a406bae2617a44aa7413ffa432",
+        "sha256_in_prefix": "0f983a52f98fe4082680c03dac500a8321f176a406bae2617a44aa7413ffa432",
+        "size_in_bytes": 2188
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7840d90fce90078da4119a5177129882848f74c9c97dbe5f75b7dd77eeb571de",
+        "sha256_in_prefix": "7840d90fce90078da4119a5177129882848f74c9c97dbe5f75b7dd77eeb571de",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/__pycache__/__main__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ccb51856beacb6e8e00c900cd530b69396caf1548f10e5befbb5b3b710d581a3",
+        "sha256_in_prefix": "ccb51856beacb6e8e00c900cd530b69396caf1548f10e5befbb5b3b710d581a3",
+        "size_in_bytes": 2359
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/__pycache__/_base.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "0feaf267919c54c142626a57d03f1cd1c7f29e1fece3eca0694c09d474f5400d",
+        "sha256_in_prefix": "0feaf267919c54c142626a57d03f1cd1c7f29e1fece3eca0694c09d474f5400d",
+        "size_in_bytes": 20858
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/__pycache__/_lib.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "464448c28e93e848b42eeca5c8caeb295becc8a449a26a1e3aeea0581d9c4b3f",
+        "sha256_in_prefix": "464448c28e93e848b42eeca5c8caeb295becc8a449a26a1e3aeea0581d9c4b3f",
+        "size_in_bytes": 22975
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/__pycache__/aplus.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "55898cd94366de9b5d34b468296546c48d9992ca20df80f7cebef7c75b9dfe5b",
+        "sha256_in_prefix": "55898cd94366de9b5d34b468296546c48d9992ca20df80f7cebef7c75b9dfe5b",
+        "size_in_bytes": 4433
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/__pycache__/pool.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b83350a13ecad7e1ade8295c57ac3ec07f4c6b833332ca9ed506e3779b3dfc44",
+        "sha256_in_prefix": "b83350a13ecad7e1ade8295c57ac3ec07f4c6b833332ca9ed506e3779b3dfc44",
+        "size_in_bytes": 10934
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/__pycache__/server.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "535c94bd0261d6d940c716839b419d7af40b41667cbda5cd94cc5b1e38e54f8d",
+        "sha256_in_prefix": "535c94bd0261d6d940c716839b419d7af40b41667cbda5cd94cc5b1e38e54f8d",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/_base.py",
+        "path_type": "hardlink",
+        "sha256": "abe1a1874f6ce550e8a7e88201e8ce491b3041c54b7db5a5d208034066de387a",
+        "sha256_in_prefix": "abe1a1874f6ce550e8a7e88201e8ce491b3041c54b7db5a5d208034066de387a",
+        "size_in_bytes": 21735
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/_lib.py",
+        "path_type": "hardlink",
+        "sha256": "c387785025d91c6146e4f33267b8a3036bdd6d4c9dd5efc3d3c50aac600e41ab",
+        "sha256_in_prefix": "c387785025d91c6146e4f33267b8a3036bdd6d4c9dd5efc3d3c50aac600e41ab",
+        "size_in_bytes": 24595
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/aplus.py",
+        "path_type": "hardlink",
+        "sha256": "90749a15f29e32911dace0e45d31bd2a60062fd5f9003784945efe3f96d9ef5e",
+        "sha256_in_prefix": "90749a15f29e32911dace0e45d31bd2a60062fd5f9003784945efe3f96d9ef5e",
+        "size_in_bytes": 4821
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/pool.py",
+        "path_type": "hardlink",
+        "sha256": "5966eb064711d4ce5b2c19b77e90f6e45b8005ddd785221beab8479794f2e15d",
+        "sha256_in_prefix": "5966eb064711d4ce5b2c19b77e90f6e45b8005ddd785221beab8479794f2e15d",
+        "size_in_bytes": 11594
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/futures/server.py",
+        "path_type": "hardlink",
+        "sha256": "fbbdcc36c8f38dc04078320d6ae34a11fa6397452dae38005b3fe2d1bb4d5172",
+        "sha256_in_prefix": "fbbdcc36c8f38dc04078320d6ae34a11fa6397452dae38005b3fe2d1bb4d5172",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/include/mpi4py/mpi.pxi",
+        "path_type": "hardlink",
+        "sha256": "ca9f6b399993606acd3f41b93fd6eda78a4c295f2c93b7d2005588260c4be4a5",
+        "sha256_in_prefix": "ca9f6b399993606acd3f41b93fd6eda78a4c295f2c93b7d2005588260c4be4a5",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/include/mpi4py/mpi4py.MPI.h",
+        "path_type": "hardlink",
+        "sha256": "8ec8a6abfbc5949dc66e09409a51bb6d49a825e6d55c01258708b75be53df9b2",
+        "sha256_in_prefix": "8ec8a6abfbc5949dc66e09409a51bb6d49a825e6d55c01258708b75be53df9b2",
+        "size_in_bytes": 8722
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/include/mpi4py/mpi4py.MPI_api.h",
+        "path_type": "hardlink",
+        "sha256": "f8b124ca6897250c3314911436ff68aa280a095e035c8aadf9be692293765561",
+        "sha256_in_prefix": "f8b124ca6897250c3314911436ff68aa280a095e035c8aadf9be692293765561",
+        "size_in_bytes": 16590
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/include/mpi4py/mpi4py.h",
+        "path_type": "hardlink",
+        "sha256": "587b5e3663c07684111d53bb298b8edde42ee5ff7a12f25f0927aefe4816ea43",
+        "sha256_in_prefix": "587b5e3663c07684111d53bb298b8edde42ee5ff7a12f25f0927aefe4816ea43",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/include/mpi4py/mpi4py.i",
+        "path_type": "hardlink",
+        "sha256": "d5191b4c498d5d1f19c36245b198a0220ad33d523329dfba3b21c1c914048cdf",
+        "sha256_in_prefix": "d5191b4c498d5d1f19c36245b198a0220ad33d523329dfba3b21c1c914048cdf",
+        "size_in_bytes": 2282
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/lib-pmpi/libmpe.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/workdir/conda-build/mpi4py_1525414672675/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "3a66311255cd530730d5da933f30a5db00071c21e4ece95d3ea75dc481ca5a19",
+        "sha256_in_prefix": "74b5dd20fd443a8331ce73cb662c70895338a49d94a3b6902e5b721eda05b654",
+        "size_in_bytes": 13712
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/lib-pmpi/libvt-hyb.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/workdir/conda-build/mpi4py_1525414672675/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "bff08453884315e343b903d78c760c796c1f3facc1c4b2de4ba2da8d7a898f79",
+        "sha256_in_prefix": "49353611ad3395e5d4806e3f801adcf64e82deacddc2594ccb8020616a826822",
+        "size_in_bytes": 13712
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/lib-pmpi/libvt-mpi.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/workdir/conda-build/mpi4py_1525414672675/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "98af2b477f638db824aef93b08c0d2fd1f8e7dbaa1534054a76148a2134578c1",
+        "sha256_in_prefix": "22f3f781f4500e5d6c424954fad9b04e4501a218025d5757b6139b1b6c473435",
+        "size_in_bytes": 13712
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/lib-pmpi/libvt.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/workdir/conda-build/mpi4py_1525414672675/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "97fc0b457f428ee34d5893edf3758e18b5cf75958d952bdd5f2eb7a542c0b02a",
+        "sha256_in_prefix": "5259cee6de60117f8818f6e956fedc07cdcb373919f2787ee117ca2dbeebac09",
+        "size_in_bytes": 13712
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/libmpi.pxd",
+        "path_type": "hardlink",
+        "sha256": "109736771833f01ef784939b8d602a79765468142c370df8758b92a32c3e097a",
+        "sha256_in_prefix": "109736771833f01ef784939b8d602a79765468142c370df8758b92a32c3e097a",
+        "size_in_bytes": 44578
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/mpi.cfg",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "02daf446a272c8f94b04569b93cbfa9e558d0b126d98c46a175209b025f3204f",
+        "sha256_in_prefix": "0f82b91f935705afec6b55b9eff6ddacf6cfd390531f4ed27b7e8ed7e3b2bbe1",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/python3.6/site-packages/mpi4py/run.py",
+        "path_type": "hardlink",
+        "sha256": "696bdd7ca6212b5ce0466db630e991285edb30681b7ae070874c5e64dfa8840d",
+        "sha256_in_prefix": "696bdd7ca6212b5ce0466db630e991285edb30681b7ae070874c5e64dfa8840d",
+        "size_in_bytes": 7656
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "mpi4py",
+  "size": 2396547,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/intel/linux-64/mpi4py-3.0.0-py36_intel_0.tar.bz2",
+  "version": "3.0.0"
+}

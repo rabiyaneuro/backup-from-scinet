@@ -1,0 +1,87 @@
+{
+  "arch": "x86_64",
+  "build": "py36_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/intel/linux-64",
+  "constrains": [],
+  "depends": [
+    "intelpython",
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/kiwisolver-1.0.1-py36_1",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/kiwisolver-1.0.1.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/kiwisolver-1.0.1.dist-info/METADATA",
+    "lib/python3.6/site-packages/kiwisolver-1.0.1.dist-info/RECORD",
+    "lib/python3.6/site-packages/kiwisolver-1.0.1.dist-info/WHEEL",
+    "lib/python3.6/site-packages/kiwisolver-1.0.1.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/kiwisolver.cpython-36m-x86_64-linux-gnu.so"
+  ],
+  "fn": "kiwisolver-1.0.1-py36_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/kiwisolver-1.0.1-py36_1",
+    "type": 1
+  },
+  "md5": "d0a251c7dc08f00a3038258d05f2d97a",
+  "name": "kiwisolver",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/kiwisolver-1.0.1-py36_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/kiwisolver-1.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python3.6/site-packages/kiwisolver-1.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f4725de6d342c1610234a390c51ba7893d61a4d1149d52fcf123fc867445bab2",
+        "sha256_in_prefix": "f4725de6d342c1610234a390c51ba7893d61a4d1149d52fcf123fc867445bab2",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "lib/python3.6/site-packages/kiwisolver-1.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "30a3e0f66fca2d93dfb7e9d2d2f0e7cdf988f2e0582be004548c9672a0a87c9d",
+        "sha256_in_prefix": "30a3e0f66fca2d93dfb7e9d2d2f0e7cdf988f2e0582be004548c9672a0a87c9d",
+        "size_in_bytes": 508
+      },
+      {
+        "_path": "lib/python3.6/site-packages/kiwisolver-1.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "bb5005bc9ef100c50ee325fe8fa9435413e5af53b142233fa17d1e73ce41fb5d",
+        "sha256_in_prefix": "bb5005bc9ef100c50ee325fe8fa9435413e5af53b142233fa17d1e73ce41fb5d",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.6/site-packages/kiwisolver-1.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c6ac168fba121e5a488dcc3640c25bf29b9314f7630c13bbf00669f608d387d7",
+        "sha256_in_prefix": "c6ac168fba121e5a488dcc3640c25bf29b9314f7630c13bbf00669f608d387d7",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.6/site-packages/kiwisolver.cpython-36m-x86_64-linux-gnu.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/workdir/conda-build/kiwisolver_1525414352837/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "5543538a2cb1d520dd102f4901a2dc16c0eb191c50e2306fa4da473e713f0bbe",
+        "sha256_in_prefix": "b3c677546c4d5ddca2d8a3ae28944f6953050695b0d18837ec8b79ffc7fe1f30",
+        "size_in_bytes": 3790885
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 945391,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/intel/linux-64/kiwisolver-1.0.1-py36_1.tar.bz2",
+  "version": "1.0.1"
+}

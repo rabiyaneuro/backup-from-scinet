@@ -1,0 +1,65 @@
+{
+  "arch": "x86_64",
+  "build": "intel_14",
+  "build_number": 14,
+  "channel": "https://conda.anaconda.org/intel/linux-64",
+  "constrains": [],
+  "depends": [
+    "intelpython"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/bzip2-1.0.6-intel_14",
+  "features": "intel",
+  "files": [
+    "include/bzlib.h",
+    "lib/libbz2.so",
+    "lib/libbz2.so.1.0",
+    "lib/libbz2.so.1.0.6"
+  ],
+  "fn": "bzip2-1.0.6-intel_14.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/bzip2-1.0.6-intel_14",
+    "type": 1
+  },
+  "md5": "6985e96773dd081209dd568a6569deba",
+  "name": "bzip2",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/bzip2-1.0.6-intel_14.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/bzlib.h",
+        "path_type": "hardlink",
+        "sha256": "b360bfe8e0769adaa8ee6ae26324e26c40ccbdb557677a6b8ad506214984d2e8",
+        "sha256_in_prefix": "b360bfe8e0769adaa8ee6ae26324e26c40ccbdb557677a6b8ad506214984d2e8",
+        "size_in_bytes": 6245
+      },
+      {
+        "_path": "lib/libbz2.so",
+        "path_type": "softlink",
+        "sha256": "4c273ae74f9abf3e2d6e2259f2af976ab5ca685d462f79f208d404100de5ceca",
+        "size_in_bytes": 252099
+      },
+      {
+        "_path": "lib/libbz2.so.1.0",
+        "path_type": "softlink",
+        "sha256": "4c273ae74f9abf3e2d6e2259f2af976ab5ca685d462f79f208d404100de5ceca",
+        "size_in_bytes": 252099
+      },
+      {
+        "_path": "lib/libbz2.so.1.0.6",
+        "path_type": "hardlink",
+        "sha256": "4c273ae74f9abf3e2d6e2259f2af976ab5ca685d462f79f208d404100de5ceca",
+        "sha256_in_prefix": "4c273ae74f9abf3e2d6e2259f2af976ab5ca685d462f79f208d404100de5ceca",
+        "size_in_bytes": 252099
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 98406,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/intel/linux-64/bzip2-1.0.6-intel_14.tar.bz2",
+  "version": "1.0.6"
+}

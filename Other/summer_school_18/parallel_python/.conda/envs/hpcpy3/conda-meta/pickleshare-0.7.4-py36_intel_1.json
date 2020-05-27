@@ -1,0 +1,93 @@
+{
+  "arch": "x86_64",
+  "build": "py36_intel_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/intel/linux-64",
+  "constrains": [],
+  "depends": [
+    "intelpython",
+    "path.py",
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/pickleshare-0.7.4-py36_intel_1",
+  "features": "intel",
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/pickleshare.cpython-36.pyc",
+    "lib/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/pickleshare.py"
+  ],
+  "fn": "pickleshare-0.7.4-py36_intel_1.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/pickleshare-0.7.4-py36_intel_1",
+    "type": 1
+  },
+  "md5": "3ef82bf83d5a1d0c611bc6f77540f566",
+  "name": "pickleshare",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/pickleshare-0.7.4-py36_intel_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/pickleshare.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "87ce914eb50b74fbfd7fb1b7365c801d4efae1b00486265c7f9b82e2665da181",
+        "sha256_in_prefix": "87ce914eb50b74fbfd7fb1b7365c801d4efae1b00486265c7f9b82e2665da181",
+        "size_in_bytes": 9965
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "b99e2173670a394f16f36ba2226e1b9007a87cee42e2c29618d0c5e7a7f7d439",
+        "sha256_in_prefix": "b99e2173670a394f16f36ba2226e1b9007a87cee42e2c29618d0c5e7a7f7d439",
+        "size_in_bytes": 1673
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "74905e73b14e9c604c21f9d3ac4c669dea33623d747a22f53b67652d9da43799",
+        "sha256_in_prefix": "74905e73b14e9c604c21f9d3ac4c669dea33623d747a22f53b67652d9da43799",
+        "size_in_bytes": 247
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "de2cc06ec94616f33cdd567fb751e5260653dd3ed89b930572ce73a604ca0993",
+        "sha256_in_prefix": "de2cc06ec94616f33cdd567fb751e5260653dd3ed89b930572ce73a604ca0993",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1a2617205194689807f88e7a194e90f4303c426c01b5334bd7f50c06511296db",
+        "sha256_in_prefix": "1a2617205194689807f88e7a194e90f4303c426c01b5334bd7f50c06511296db",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pickleshare.py",
+        "path_type": "hardlink",
+        "sha256": "b6c8edb9e7289c41d9e67c96a05a411dbfc20a07386315a1fc74f19518c131c8",
+        "sha256_in_prefix": "b6c8edb9e7289c41d9e67c96a05a411dbfc20a07386315a1fc74f19518c131c8",
+        "size_in_bytes": 9849
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 11714,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/intel/linux-64/pickleshare-0.7.4-py36_intel_1.tar.bz2",
+  "version": "0.7.4"
+}

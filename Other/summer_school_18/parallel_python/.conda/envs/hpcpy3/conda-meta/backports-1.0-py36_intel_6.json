@@ -1,0 +1,52 @@
+{
+  "arch": "x86_64",
+  "build": "py36_intel_6",
+  "build_number": 6,
+  "channel": "https://conda.anaconda.org/intel/linux-64",
+  "constrains": [],
+  "depends": [
+    "intelpython",
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/backports-1.0-py36_intel_6",
+  "features": "intel",
+  "files": [
+    "lib/python3.6/site-packages/backports/__init__.py",
+    "lib/python3.6/site-packages/backports/__pycache__/__init__.cpython-36.pyc"
+  ],
+  "fn": "backports-1.0-py36_intel_6.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/backports-1.0-py36_intel_6",
+    "type": 1
+  },
+  "md5": "8f97b851fd2746df0b8efd25c1f88be9",
+  "name": "backports",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/backports-1.0-py36_intel_6.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/backports/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "248821cd8cda1c51e74c9791d6b5109957ba408a705ec4a27aea27933f910eb3",
+        "sha256_in_prefix": "248821cd8cda1c51e74c9791d6b5109957ba408a705ec4a27aea27933f910eb3",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "lib/python3.6/site-packages/backports/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e239e6226434315bb8d88a65d6281304674c01e97c4bde3cc3ddf9f033086ff1",
+        "sha256_in_prefix": "e239e6226434315bb8d88a65d6281304674c01e97c4bde3cc3ddf9f033086ff1",
+        "size_in_bytes": 132
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 4462,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/intel/linux-64/backports-1.0-py36_intel_6.tar.bz2",
+  "version": "1.0"
+}

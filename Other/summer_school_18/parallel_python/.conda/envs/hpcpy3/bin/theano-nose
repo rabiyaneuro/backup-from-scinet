@@ -1,0 +1,4 @@
+#!/bb/scinet/course/ss2018/2_ds/4_parallelpython/.conda/envs/hpcpy3/bin/python
+# EASY-INSTALL-SCRIPT: 'Theano==0.9.0.dev2','theano-nose'
+__requires__ = 'Theano==0.9.0.dev2'
+__import__('pkg_resources').run_script('Theano==0.9.0.dev2', 'theano-nose')

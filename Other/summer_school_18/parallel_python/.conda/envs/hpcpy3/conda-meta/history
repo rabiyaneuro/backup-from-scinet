@@ -1,0 +1,74 @@
+==> 2018-06-12 11:31:42 <==
+# cmd: /scinet/niagara/intel/2018.2/intelpython3/bin/conda create --prefix /bb/scinet/course/ss2018/2_ds/4_parallelpython/.conda/envs/hpcpy3
+==> 2018-06-12 11:34:49 <==
+# cmd: /scinet/niagara/intel/2018.2/intelpython3/bin/conda install numpy scipy numexpr matplotlib
++intel::bzip2-1.0.6-intel_14
++intel::cycler-0.10.0-py36_intel_5
++intel::freetype-2.9-intel_1
++intel::icc_rt-2018.0.3-intel_0
++intel::intelpython-2018.0.3-0
++intel::kiwisolver-1.0.1-py36_1
++intel::libpng-1.6.34-intel_1
++intel::matplotlib-2.2.2-np114py36_intel_1
++intel::mkl-2018.0.3-intel_1
++intel::mkl_fft-1.0.2-np114py36_intel_0
++intel::mkl_random-1.0.1-np114py36_intel_0
++intel::numexpr-2.6.4-np114py36_intel_0
++intel::numpy-1.14.3-py36_intel_0
++intel::openmp-2018.0.3-intel_0
++intel::openssl-1.0.2o-intel_0
++intel::pip-9.0.1-py36_intel_0
++intel::pyparsing-2.2.0-py36_intel_0
++intel::python-3.6.3-intel_12
++intel::python-dateutil-2.6.0-py36_intel_3
++intel::pytz-2018.4-py36_intel_0
++intel::scipy-1.0.1-np114py36_intel_3
++intel::setuptools-27.2.0-py36_intel_0
++intel::six-1.10.0-py36_intel_8
++intel::sqlite-3.23.1-intel_0
++intel::tcl-8.6.4-intel_19
++intel::tk-8.6.4-intel_26
++intel::wheel-0.31.0-py36_intel_0
++intel::xz-5.2.3-intel_0
++intel::zlib-1.2.11-intel_3
+# update specs: ['scipy', 'numexpr', 'numpy', 'matplotlib']
+==> 2018-06-12 11:38:32 <==
+# cmd: /scinet/niagara/intel/2018.2/intelpython3/bin/conda install psutil line_profiler memory_profiler cython
++defaults::libgcc-ng-7.2.0-hdf63c60_3
++defaults::line_profiler-2.1.2-py36h14c3975_0
++defaults::memory_profiler-0.52.0-py36_0
++defaults::psutil-5.4.5-py36h14c3975_0
++intel::backcall-0.1.0-py36_intel_0
++intel::backports-1.0-py36_intel_6
++intel::cython-0.28.2-py36_intel_4
++intel::decorator-4.3.0-py36_intel_0
++intel::get_terminal_size-1.0.0-py36_intel_5
++intel::ipython-6.3.1-py36_intel_1
++intel::ipython_genutils-0.2.0-py36_intel_0
++intel::jedi-0.12.0-py36_intel_0
++intel::parso-0.2.0-py36_intel_0
++intel::path.py-11.0.1-py36_intel_0
++intel::pexpect-4.2.1-py36_intel_1
++intel::pickleshare-0.7.4-py36_intel_1
++intel::prompt_toolkit-1.0.15-py36_intel_0
++intel::ptyprocess-0.5.2-py36_intel_0
++intel::pygments-2.2.0-py36_intel_1
++intel::simplegeneric-0.8.1-py36_intel_5
++intel::traitlets-4.3.2-py36_intel_1
++intel::wcwidth-0.1.7-py36_intel_5
+# update specs: ['cython', 'psutil', 'line_profiler', 'memory_profiler']
+==> 2018-06-12 11:39:31 <==
+# cmd: /scinet/niagara/intel/2018.2/intelpython3/bin/conda install mpi4py
++intel::impi_rt-2018.0.3-intel_0
++intel::mpi4py-3.0.0-py36_intel_0
+# update specs: ['mpi4py']
+==> 2018-06-12 11:40:11 <==
+# cmd: /scinet/niagara/intel/2018.2/intelpython3/bin/conda install theano
++intel::theano-1.1-py36_intel_4
+# update specs: ['theano']
+==> 2018-06-12 11:41:07 <==
+# cmd: /scinet/niagara/intel/2018.2/intelpython3/bin/conda install numba
++intel::llvmlite-0.23.0-py36_0
++intel::numba-0.38.0-np114py36_intel_3
++intel::tbb-2018.0.1-py36_intel_4
+# update specs: ['numba']

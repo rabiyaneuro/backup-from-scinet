@@ -1,0 +1,206 @@
+SEED OF THIS RANK IS  2019 1
+(76, 76)
+3.0
+2019
+Initialized solver
+iter:  1
+calculating initial energies
+2396735027
+1242716112
+528383273
+21880853
+330984860
+looping through population members,  0 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+3016742879
+looping through population members,  1 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+442551811
+looping through population members,  2 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+2231486358
+looping through population members,  3 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+4075702853
+looping through population members,  4 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+3838590720
+differential_evolution step 1: f(x)= 0.579082
+Checking if should converge
+checking if tolerance level reached
+Starting next iter
+iter:  2
+looping through population members,  0 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+1584722307
+looping through population members,  1 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+584905376
+looping through population members,  2 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+2978689871
+looping through population members,  3 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+1170531255
+looping through population members,  4 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+3759263262
+differential_evolution step 2: f(x)= 0.579082
+Checking if should converge
+checking if tolerance level reached
+Starting next iter
+iter:  3
+looping through population members,  0 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+1574200394
+looping through population members,  1 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+3210202546
+looping through population members,  2 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+581795216
+looping through population members,  3 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+2623905493
+looping through population members,  4 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+3066003458
+differential_evolution step 3: f(x)= 0.571021
+Checking if should converge
+checking if tolerance level reached
+Starting next iter
+done iters
+0.04527710623211331
+SEED OF THIS RANK IS  2018 0
+(76, 76)
+3.0
+2018
+Initialized solver
+iter:  1
+calculating initial energies
+740591166
+2481669902
+3953388780
+1878428803
+1944459989
+looping through population members,  0 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+3071639511
+looping through population members,  1 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+529804921
+looping through population members,  2 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+2629307545
+looping through population members,  3 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+795714625
+looping through population members,  4 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+1132312825
+differential_evolution step 1: f(x)= 0.531936
+Checking if should converge
+checking if tolerance level reached
+Starting next iter
+iter:  2
+looping through population members,  0 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+1290655618
+looping through population members,  1 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+3377716742
+looping through population members,  2 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+2782140454
+looping through population members,  3 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+811589312
+looping through population members,  4 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+4188320442
+differential_evolution step 2: f(x)= 0.531936
+Checking if should converge
+checking if tolerance level reached
+Starting next iter
+iter:  3
+looping through population members,  0 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+1368884532
+looping through population members,  1 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+604798163
+looping through population members,  2 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+4013126569
+looping through population members,  3 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+3720802597
+looping through population members,  4 of  5
+creating trial solution
+mutating trial for binomial methods
+performin crossovers in trial vector
+2910315154
+differential_evolution step 3: f(x)= 0.531936
+Checking if should converge
+checking if tolerance level reached
+Starting next iter
+done iters
+0.04542018559243944

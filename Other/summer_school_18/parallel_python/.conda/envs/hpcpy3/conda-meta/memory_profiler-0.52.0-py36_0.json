@@ -1,0 +1,104 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "psutil",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/memory_profiler-0.52.0-py36_0",
+  "features": "",
+  "files": [
+    "bin/mprof",
+    "lib/python3.6/site-packages/__pycache__/memory_profiler.cpython-36.pyc",
+    "lib/python3.6/site-packages/memory_profiler-0.52.0-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/memory_profiler-0.52.0-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/memory_profiler-0.52.0-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/memory_profiler-0.52.0-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/memory_profiler-0.52.0-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/memory_profiler.py"
+  ],
+  "fn": "memory_profiler-0.52.0-py36_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/memory_profiler-0.52.0-py36_0",
+    "type": 1
+  },
+  "md5": "58623e217d6cd6d6b0fe78c8e694e88e",
+  "name": "memory_profiler",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/memory_profiler-0.52.0-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/mprof",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "f71324369809f520a72aa432e3e6f01ded09607ff4663e4e5802c4c282655752",
+        "sha256_in_prefix": "cffa2ec550dfca8bd6ebbccb7c308e81c3a84a6b28e44809151d05641f2795d7",
+        "size_in_bytes": 20713
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/memory_profiler.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "91c10113f8f8b617cf32ef2b495c35498ca193d84b8b41ceb04a9c31e2bfd8c5",
+        "sha256_in_prefix": "91c10113f8f8b617cf32ef2b495c35498ca193d84b8b41ceb04a9c31e2bfd8c5",
+        "size_in_bytes": 32798
+      },
+      {
+        "_path": "lib/python3.6/site-packages/memory_profiler-0.52.0-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "1af8b787732740748a149b6c8fa70449671cda9666e5de70cc8d527680f012b3",
+        "sha256_in_prefix": "1af8b787732740748a149b6c8fa70449671cda9666e5de70cc8d527680f012b3",
+        "size_in_bytes": 21060
+      },
+      {
+        "_path": "lib/python3.6/site-packages/memory_profiler-0.52.0-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "7e1632fb612affd84949fbea24ab6d8aaa74bf680b802678396a84b90d5ed765",
+        "sha256_in_prefix": "7e1632fb612affd84949fbea24ab6d8aaa74bf680b802678396a84b90d5ed765",
+        "size_in_bytes": 618
+      },
+      {
+        "_path": "lib/python3.6/site-packages/memory_profiler-0.52.0-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/memory_profiler-0.52.0-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "8023619f9ef0ce4b038d20084a680c2746a25f342e964d062616f6f81032620c",
+        "sha256_in_prefix": "8023619f9ef0ce4b038d20084a680c2746a25f342e964d062616f6f81032620c",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.6/site-packages/memory_profiler-0.52.0-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "162cd492ed78889b00e107896a98638cabb7bd597a5b0c990279663815e968a2",
+        "sha256_in_prefix": "162cd492ed78889b00e107896a98638cabb7bd597a5b0c990279663815e968a2",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "lib/python3.6/site-packages/memory_profiler.py",
+        "path_type": "hardlink",
+        "sha256": "d5bb6955692cd15b94bd34057c83741608aeac003cb2199ec4b20b377597ccf6",
+        "sha256_in_prefix": "d5bb6955692cd15b94bd34057c83741608aeac003cb2199ec4b20b377597ccf6",
+        "size_in_bytes": 43315
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "memory_profiler",
+  "size": 38825,
+  "subdir": "linux-64",
+  "timestamp": 1519671852307,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/memory_profiler-0.52.0-py36_0.tar.bz2",
+  "version": "0.52.0"
+}

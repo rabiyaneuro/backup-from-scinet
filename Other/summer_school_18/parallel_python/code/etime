@@ -1,0 +1,1 @@
+etime() { /usr/bin/time -f "Elapsed: %e seconds" $@; }

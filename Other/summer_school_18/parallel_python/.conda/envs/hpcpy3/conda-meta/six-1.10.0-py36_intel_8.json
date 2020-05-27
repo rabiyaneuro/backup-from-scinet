@@ -1,0 +1,60 @@
+{
+  "arch": "x86_64",
+  "build": "py36_intel_8",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/intel/linux-64",
+  "constrains": [],
+  "depends": [
+    "intelpython",
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/six-1.10.0-py36_intel_8",
+  "features": "intel",
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/six.cpython-36.pyc",
+    "lib/python3.6/site-packages/six-1.10.0-py3.6.egg-info",
+    "lib/python3.6/site-packages/six.py"
+  ],
+  "fn": "six-1.10.0-py36_intel_8.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/six-1.10.0-py36_intel_8",
+    "type": 1
+  },
+  "md5": "7bef37aca6a6eeeca4bb7a52d10e7ad7",
+  "name": "six",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/six-1.10.0-py36_intel_8.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/six.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "1409ca9e22f7a6aeb23f299299adc2ff15f3f78c46052fae795ca84cf0e1c7b5",
+        "sha256_in_prefix": "1409ca9e22f7a6aeb23f299299adc2ff15f3f78c46052fae795ca84cf0e1c7b5",
+        "size_in_bytes": 24419
+      },
+      {
+        "_path": "lib/python3.6/site-packages/six-1.10.0-py3.6.egg-info",
+        "path_type": "hardlink",
+        "sha256": "13226f687fe4be9ec291195bc50fc86e00cebb11ab4a3207ccde9fe643208911",
+        "sha256_in_prefix": "13226f687fe4be9ec291195bc50fc86e00cebb11ab4a3207ccde9fe643208911",
+        "size_in_bytes": 1422
+      },
+      {
+        "_path": "lib/python3.6/site-packages/six.py",
+        "path_type": "hardlink",
+        "sha256": "03a85d259563237b7f81e79b67d07352fc11ac85e8d257f0cd094cd8b70ac9ab",
+        "sha256_in_prefix": "03a85d259563237b7f81e79b67d07352fc11ac85e8d257f0cd094cd8b70ac9ab",
+        "size_in_bytes": 30098
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 20476,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/intel/linux-64/six-1.10.0-py36_intel_8.tar.bz2",
+  "version": "1.10.0"
+}

@@ -1,0 +1,5 @@
+#!/bin/bash
+if [ "$1" == "-p" ]; then
+    shift
+fi
+time $@

@@ -1,0 +1,4 @@
+module load gcc openmpi pgplot/5.2.2-x gnuplot/5.2.2 rarray/1.2 intelpython3
+
+source activate /bb/scinet/course/ss2018/2_ds/4_parallelpython/.conda/envs/hpcpy3
+etime() { /usr/bin/time -f "Elapsed: %e seconds" $@; }

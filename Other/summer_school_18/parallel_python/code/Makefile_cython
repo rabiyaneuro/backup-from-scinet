@@ -1,0 +1,26 @@
+# File: Makefile_cython
+#
+# Compiles the python 2d diffusion code as an extension with cython,
+# and runs it.
+#
+# Call with "make -f Makefile_cython"
+#
+# Ramses van Zon, 2017
+
+run_diff2d_numpy_cython: diff2d_numpy_cython.py diff2dnumpylib.so 
+	time python diff2d_numpy_cython.py
+
+diff2dnumpylib.so: diff2dnumpylib.pyx diff2dnumpylibsetup.py
+	python diff2dnumpylibsetup.py build_ext --inplace
+
+diff2dnumpylibsetup.py: Makefile_cython
+	echo 'from distutils.core import setup' > $@
+	echo 'from Cython.Build import cythonize' >> $@
+	echo 'setup(ext_modules = cythonize("diff2dnumpylib.pyx"))' >> $@
+
+.PHONY: clean run_diff2d_numpy_cython
+clean:
+	\rm -f diff2dnumpylibsetup.py diff2dnumpylib.so
+
+
+

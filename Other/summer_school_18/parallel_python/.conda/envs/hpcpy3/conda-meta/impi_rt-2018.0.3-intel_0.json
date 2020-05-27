@@ -1,0 +1,449 @@
+{
+  "arch": "x86_64",
+  "build": "intel_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/intel/linux-64",
+  "constrains": [],
+  "depends": [
+    "intelpython"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/impi_rt-2018.0.3-intel_0",
+  "features": "intel",
+  "files": [
+    "bin/Llama/LlamaAMAdminService.py",
+    "bin/Llama/LlamaAMService.py",
+    "bin/Llama/LlamaNMService.py",
+    "bin/Llama/LlamaNotificationService.py",
+    "bin/Llama/__init__.py",
+    "bin/Llama/constants.py",
+    "bin/Llama/ttypes.py",
+    "bin/cpuinfo",
+    "bin/hydra_nameserver",
+    "bin/hydra_persist",
+    "bin/llamaMPIClient.py",
+    "bin/mpicleanup",
+    "bin/mpiexec.hydra",
+    "bin/mpirun",
+    "bin/mpitune",
+    "bin/mpivars.csh",
+    "bin/mpivars.sh",
+    "bin/pmi_proxy",
+    "bin/tune/_collections.so",
+    "bin/tune/_functools.so",
+    "bin/tune/_random.so",
+    "bin/tune/_socket.so",
+    "bin/tune/_struct.so",
+    "bin/tune/binascii.so",
+    "bin/tune/cStringIO.so",
+    "bin/tune/fcntl.so",
+    "bin/tune/itertools.so",
+    "bin/tune/math.so",
+    "bin/tune/mpitune",
+    "bin/tune/mpitune_app",
+    "bin/tune/mpitune_rank_placement",
+    "bin/tune/operator.so",
+    "bin/tune/pyexpat.so",
+    "bin/tune/select.so",
+    "bin/tune/time.so",
+    "bin/tune/topo_graph_gen",
+    "etc/mpiexec.conf",
+    "etc/tmi.conf",
+    "lib/libmpi.so",
+    "lib/libmpi.so.12",
+    "lib/libmpi.so.12.0",
+    "lib/libmpi_gpfs.so.5.0",
+    "lib/libmpi_lustre.so.5.0",
+    "lib/libmpi_panfs.so.5.0",
+    "lib/libmpifort.so.12",
+    "lib/libmpifort.so.12.0",
+    "lib/libmpitune.so.1.0",
+    "lib/libtmi.so.1.2",
+    "lib/libtmip_mx.so.1.0",
+    "lib/libtmip_psm.so.1.2",
+    "lib/libtmip_psm2.so.1.0"
+  ],
+  "fn": "impi_rt-2018.0.3-intel_0.tar.bz2",
+  "license": "proprietary - Intel",
+  "license_family": "Proprietary",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/impi_rt-2018.0.3-intel_0",
+    "type": 1
+  },
+  "md5": "f698ada26acae07859559e19c43c2c0a",
+  "name": "impi_rt",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/impi_rt-2018.0.3-intel_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/Llama/LlamaAMAdminService.py",
+        "path_type": "hardlink",
+        "sha256": "77d080cba388e9c4cbb57097234020f083a83211e3d0e339b68e1b2e4a24ff58",
+        "sha256_in_prefix": "77d080cba388e9c4cbb57097234020f083a83211e3d0e339b68e1b2e4a24ff58",
+        "size_in_bytes": 12122
+      },
+      {
+        "_path": "bin/Llama/LlamaAMService.py",
+        "path_type": "hardlink",
+        "sha256": "efc76572a12153d4a15f966b3304285765a3fd761bbce6d8d82c8bef7068b226",
+        "sha256_in_prefix": "efc76572a12153d4a15f966b3304285765a3fd761bbce6d8d82c8bef7068b226",
+        "size_in_bytes": 33517
+      },
+      {
+        "_path": "bin/Llama/LlamaNMService.py",
+        "path_type": "hardlink",
+        "sha256": "e7e897ff72188a95723c91fa5e29d5631c9621b00c3324ddb75d3e812383a4ee",
+        "sha256_in_prefix": "e7e897ff72188a95723c91fa5e29d5631c9621b00c3324ddb75d3e812383a4ee",
+        "size_in_bytes": 12089
+      },
+      {
+        "_path": "bin/Llama/LlamaNotificationService.py",
+        "path_type": "hardlink",
+        "sha256": "566b4bfd8ec0a5277111a7d6e3c0664303c9b7d31058f9003f0531692b3b9190",
+        "sha256_in_prefix": "566b4bfd8ec0a5277111a7d6e3c0664303c9b7d31058f9003f0531692b3b9190",
+        "size_in_bytes": 12335
+      },
+      {
+        "_path": "bin/Llama/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "56b2c3a75d3e9c763ca092c5798b852170d897dc76725e308a80788b2a53ebd7",
+        "sha256_in_prefix": "56b2c3a75d3e9c763ca092c5798b852170d897dc76725e308a80788b2a53ebd7",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "bin/Llama/constants.py",
+        "path_type": "hardlink",
+        "sha256": "046feaaa1f19ea794e843739815a7dae49881aea78f5f4988556b0a2ad06fd02",
+        "sha256_in_prefix": "046feaaa1f19ea794e843739815a7dae49881aea78f5f4988556b0a2ad06fd02",
+        "size_in_bytes": 244
+      },
+      {
+        "_path": "bin/Llama/ttypes.py",
+        "path_type": "hardlink",
+        "sha256": "7c6b959d7ddc9e98ee15a453fc1c5f829b8208f509f2596d7daafeae28ba2858",
+        "sha256_in_prefix": "7c6b959d7ddc9e98ee15a453fc1c5f829b8208f509f2596d7daafeae28ba2858",
+        "size_in_bytes": 104466
+      },
+      {
+        "_path": "bin/cpuinfo",
+        "path_type": "hardlink",
+        "sha256": "694d2e9c7b94470b65e631f3a11e026b3c9231c6e7a08a0c5ded002f056ab5b4",
+        "sha256_in_prefix": "694d2e9c7b94470b65e631f3a11e026b3c9231c6e7a08a0c5ded002f056ab5b4",
+        "size_in_bytes": 889419
+      },
+      {
+        "_path": "bin/hydra_nameserver",
+        "path_type": "hardlink",
+        "sha256": "a12404f7b56f048960722c0fbc4fc75b5bac40e9dad9a5f3e91a8de4cb18976a",
+        "sha256_in_prefix": "a12404f7b56f048960722c0fbc4fc75b5bac40e9dad9a5f3e91a8de4cb18976a",
+        "size_in_bytes": 1645941
+      },
+      {
+        "_path": "bin/hydra_persist",
+        "path_type": "hardlink",
+        "sha256": "583fd3643829ad87d41adcdc135a0871b0fc0a4257f7038254ac8f6086f3aa1c",
+        "sha256_in_prefix": "583fd3643829ad87d41adcdc135a0871b0fc0a4257f7038254ac8f6086f3aa1c",
+        "size_in_bytes": 1645774
+      },
+      {
+        "_path": "bin/llamaMPIClient.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "b1c9ca20d1f632ddbdc8d58dc1f5e52f37439ae6834b77db1c1b1f3cc111507e",
+        "sha256_in_prefix": "ae8811f36113b69c58e4103dce8be5dd08c5abd7c382ce42e53b8e3218f19608",
+        "size_in_bytes": 14436
+      },
+      {
+        "_path": "bin/mpicleanup",
+        "path_type": "hardlink",
+        "sha256": "9e91779d3f1b86b979e3a8d7d45f4965659db1ed7e9e58b37dfb7b70266b7c7d",
+        "sha256_in_prefix": "9e91779d3f1b86b979e3a8d7d45f4965659db1ed7e9e58b37dfb7b70266b7c7d",
+        "size_in_bytes": 11862
+      },
+      {
+        "_path": "bin/mpiexec.hydra",
+        "path_type": "hardlink",
+        "sha256": "fa3b8e2c2e144689be96a2ee0d5847e1578e6f289cb7812a323a261f75a383f4",
+        "sha256_in_prefix": "fa3b8e2c2e144689be96a2ee0d5847e1578e6f289cb7812a323a261f75a383f4",
+        "size_in_bytes": 2484417
+      },
+      {
+        "_path": "bin/mpirun",
+        "path_type": "hardlink",
+        "sha256": "732b28893d20ba5c29a3c92f44089f350a078d9cfe37cfd6149153d73853f3de",
+        "sha256_in_prefix": "732b28893d20ba5c29a3c92f44089f350a078d9cfe37cfd6149153d73853f3de",
+        "size_in_bytes": 3876
+      },
+      {
+        "_path": "bin/mpitune",
+        "path_type": "hardlink",
+        "sha256": "f89f86bb9531a319e9bf51fc0b047fcfbb44c294eddc7982103f44a4fc0c7a92",
+        "sha256_in_prefix": "f89f86bb9531a319e9bf51fc0b047fcfbb44c294eddc7982103f44a4fc0c7a92",
+        "size_in_bytes": 2710
+      },
+      {
+        "_path": "bin/mpivars.csh",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "1504e77d47988f90f5785d5013822c126b9dc0ea21bc8ee02e49e35fa71efa1d",
+        "sha256_in_prefix": "edb201a5b03993b85ae697f05465a34cba825e520432a1f2dd448243632a92d0",
+        "size_in_bytes": 2395
+      },
+      {
+        "_path": "bin/mpivars.sh",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "8dff6331d9c276baed8659a94e9d9da1ec81e99ecbac557a329d779bc57fa230",
+        "sha256_in_prefix": "ca09c180e3430dc9b402346814f70aab5b9a854c0c870e5a130810f0e8cdf99d",
+        "size_in_bytes": 2406
+      },
+      {
+        "_path": "bin/pmi_proxy",
+        "path_type": "hardlink",
+        "sha256": "f917ea519f7c06e0d190bda31d88ecea0c5be9b1324a570dd83a1cd621f92d13",
+        "sha256_in_prefix": "f917ea519f7c06e0d190bda31d88ecea0c5be9b1324a570dd83a1cd621f92d13",
+        "size_in_bytes": 2157540
+      },
+      {
+        "_path": "bin/tune/_collections.so",
+        "path_type": "hardlink",
+        "sha256": "28df79f2640fdad2015a14984eb61ca1332fc27310c3d9bf5751259327b832ad",
+        "sha256_in_prefix": "28df79f2640fdad2015a14984eb61ca1332fc27310c3d9bf5751259327b832ad",
+        "size_in_bytes": 93697
+      },
+      {
+        "_path": "bin/tune/_functools.so",
+        "path_type": "hardlink",
+        "sha256": "e401c6b5288c3f417c1b638101c7b8a165f75a5c4eee35b962e8b00a58c396a3",
+        "sha256_in_prefix": "e401c6b5288c3f417c1b638101c7b8a165f75a5c4eee35b962e8b00a58c396a3",
+        "size_in_bytes": 31229
+      },
+      {
+        "_path": "bin/tune/_random.so",
+        "path_type": "hardlink",
+        "sha256": "d2329d71278d40f8b439bfae9a0325f509f617cf8a2d44eb7b16616dab385a29",
+        "sha256_in_prefix": "d2329d71278d40f8b439bfae9a0325f509f617cf8a2d44eb7b16616dab385a29",
+        "size_in_bytes": 35016
+      },
+      {
+        "_path": "bin/tune/_socket.so",
+        "path_type": "hardlink",
+        "sha256": "e00ffc862e83620bd268a1cb3fdf126b72f691b4470284ef1ecde83747e824f5",
+        "sha256_in_prefix": "e00ffc862e83620bd268a1cb3fdf126b72f691b4470284ef1ecde83747e824f5",
+        "size_in_bytes": 147469
+      },
+      {
+        "_path": "bin/tune/_struct.so",
+        "path_type": "hardlink",
+        "sha256": "8b1b4d52a3c6dbf286b45496e2e1af339810e409250adb60d6bd697a5c052fa4",
+        "sha256_in_prefix": "8b1b4d52a3c6dbf286b45496e2e1af339810e409250adb60d6bd697a5c052fa4",
+        "size_in_bytes": 102496
+      },
+      {
+        "_path": "bin/tune/binascii.so",
+        "path_type": "hardlink",
+        "sha256": "00918657a5b17fd8b5af3d27af89cff2a4ca0e68fd79ac7e475d73090d0e0593",
+        "sha256_in_prefix": "00918657a5b17fd8b5af3d27af89cff2a4ca0e68fd79ac7e475d73090d0e0593",
+        "size_in_bytes": 55533
+      },
+      {
+        "_path": "bin/tune/cStringIO.so",
+        "path_type": "hardlink",
+        "sha256": "d4ce61ba89b14ec8af3024ed4ed8b31ac6506410a88f3b313b6759e49238741a",
+        "sha256_in_prefix": "d4ce61ba89b14ec8af3024ed4ed8b31ac6506410a88f3b313b6759e49238741a",
+        "size_in_bytes": 49348
+      },
+      {
+        "_path": "bin/tune/fcntl.so",
+        "path_type": "hardlink",
+        "sha256": "d9492cd843b6c336191f2d89fc58495c0128140a6051c35e9e59f7f367931ab9",
+        "sha256_in_prefix": "d9492cd843b6c336191f2d89fc58495c0128140a6051c35e9e59f7f367931ab9",
+        "size_in_bytes": 34331
+      },
+      {
+        "_path": "bin/tune/itertools.so",
+        "path_type": "hardlink",
+        "sha256": "ab83bb19ad7e24947f1dfc1c10590e4a00867974e3beb629adde93536c6379d3",
+        "sha256_in_prefix": "ab83bb19ad7e24947f1dfc1c10590e4a00867974e3beb629adde93536c6379d3",
+        "size_in_bytes": 147086
+      },
+      {
+        "_path": "bin/tune/math.so",
+        "path_type": "hardlink",
+        "sha256": "3a57be39c0558f9a1482c763669f3c7faec375087cdbef6503efc0fe0f097fb3",
+        "sha256_in_prefix": "3a57be39c0558f9a1482c763669f3c7faec375087cdbef6503efc0fe0f097fb3",
+        "size_in_bytes": 89934
+      },
+      {
+        "_path": "bin/tune/mpitune",
+        "path_type": "hardlink",
+        "sha256": "f81fe7410e1497c0d65ede956684ebc7dbb3bf70fc71a8bd0404882bc399a6ae",
+        "sha256_in_prefix": "f81fe7410e1497c0d65ede956684ebc7dbb3bf70fc71a8bd0404882bc399a6ae",
+        "size_in_bytes": 4754649
+      },
+      {
+        "_path": "bin/tune/mpitune_app",
+        "path_type": "hardlink",
+        "sha256": "7444747e08df29bc35ceb1038d146957aa941f2b7e9129076be39882fd35c4f7",
+        "sha256_in_prefix": "7444747e08df29bc35ceb1038d146957aa941f2b7e9129076be39882fd35c4f7",
+        "size_in_bytes": 1587152
+      },
+      {
+        "_path": "bin/tune/mpitune_rank_placement",
+        "path_type": "hardlink",
+        "sha256": "babd71315a1b095ae9e5ce5c7e26e6cf2e7012059d65a3e68f74ac40335da318",
+        "sha256_in_prefix": "babd71315a1b095ae9e5ce5c7e26e6cf2e7012059d65a3e68f74ac40335da318",
+        "size_in_bytes": 236464
+      },
+      {
+        "_path": "bin/tune/operator.so",
+        "path_type": "hardlink",
+        "sha256": "81fa85fbe6a4f010a9d50be4b789b605c05cf672530a614f7bee624cf5ffaf9f",
+        "sha256_in_prefix": "81fa85fbe6a4f010a9d50be4b789b605c05cf672530a614f7bee624cf5ffaf9f",
+        "size_in_bytes": 82416
+      },
+      {
+        "_path": "bin/tune/pyexpat.so",
+        "path_type": "hardlink",
+        "sha256": "a82bd15bd36b43c2b37f4095846ff432a66d50eb13de8a2fa189e62177c2a8f0",
+        "sha256_in_prefix": "a82bd15bd36b43c2b37f4095846ff432a66d50eb13de8a2fa189e62177c2a8f0",
+        "size_in_bytes": 717689
+      },
+      {
+        "_path": "bin/tune/select.so",
+        "path_type": "hardlink",
+        "sha256": "5920328d954affed73a2b4087891da8acae9c86ef6185935270534580256fe93",
+        "sha256_in_prefix": "5920328d954affed73a2b4087891da8acae9c86ef6185935270534580256fe93",
+        "size_in_bytes": 61032
+      },
+      {
+        "_path": "bin/tune/time.so",
+        "path_type": "hardlink",
+        "sha256": "10d1bd333e1129424a455254ae42274bde08fbdcc46e1158172b9fe213104935",
+        "sha256_in_prefix": "10d1bd333e1129424a455254ae42274bde08fbdcc46e1158172b9fe213104935",
+        "size_in_bytes": 47123
+      },
+      {
+        "_path": "bin/tune/topo_graph_gen",
+        "path_type": "hardlink",
+        "sha256": "b54930aed410f1001ebdd3da06fd4b27cc2ff2484c0ee17c47850b99d6d5b13e",
+        "sha256_in_prefix": "b54930aed410f1001ebdd3da06fd4b27cc2ff2484c0ee17c47850b99d6d5b13e",
+        "size_in_bytes": 68376
+      },
+      {
+        "_path": "etc/mpiexec.conf",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "a62d4b869a9556b67046fe3db9a3217c10c31b7117505ab6e3e4253b57b7e72c",
+        "sha256_in_prefix": "b3b38dd6053c87666e0171a1731f6acfad3d2138acf63c6f57ec84d23746dbd9",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "etc/tmi.conf",
+        "path_type": "hardlink",
+        "sha256": "5cf1588858d73fef2dd6a8942ef6875660098a6d2d86c409f2f3f0b0d4e8a686",
+        "sha256_in_prefix": "5cf1588858d73fef2dd6a8942ef6875660098a6d2d86c409f2f3f0b0d4e8a686",
+        "size_in_bytes": 286
+      },
+      {
+        "_path": "lib/libmpi.so",
+        "path_type": "softlink",
+        "sha256": "4dc4c5034d2f79555f1d0e041190efa72c98ed47d481ee5ffc9d9edfe81acae7",
+        "size_in_bytes": 7517023
+      },
+      {
+        "_path": "lib/libmpi.so.12",
+        "path_type": "softlink",
+        "sha256": "4dc4c5034d2f79555f1d0e041190efa72c98ed47d481ee5ffc9d9edfe81acae7",
+        "size_in_bytes": 7517023
+      },
+      {
+        "_path": "lib/libmpi.so.12.0",
+        "path_type": "hardlink",
+        "sha256": "4dc4c5034d2f79555f1d0e041190efa72c98ed47d481ee5ffc9d9edfe81acae7",
+        "sha256_in_prefix": "4dc4c5034d2f79555f1d0e041190efa72c98ed47d481ee5ffc9d9edfe81acae7",
+        "size_in_bytes": 7517023
+      },
+      {
+        "_path": "lib/libmpi_gpfs.so.5.0",
+        "path_type": "hardlink",
+        "sha256": "7fe50ecc6f407488b8b79d4f257657e8deab136e410c6a55b9c91947e35e8a95",
+        "sha256_in_prefix": "7fe50ecc6f407488b8b79d4f257657e8deab136e410c6a55b9c91947e35e8a95",
+        "size_in_bytes": 331699
+      },
+      {
+        "_path": "lib/libmpi_lustre.so.5.0",
+        "path_type": "hardlink",
+        "sha256": "70956f9d97471fd8e00046b9fbe92de6ed4afb3f3d40269f3ef38a3087e26052",
+        "sha256_in_prefix": "70956f9d97471fd8e00046b9fbe92de6ed4afb3f3d40269f3ef38a3087e26052",
+        "size_in_bytes": 261184
+      },
+      {
+        "_path": "lib/libmpi_panfs.so.5.0",
+        "path_type": "hardlink",
+        "sha256": "76f28e42845222a5265565b471d9a5479f39bfcab934e177d6d0d81e37b583c5",
+        "sha256_in_prefix": "76f28e42845222a5265565b471d9a5479f39bfcab934e177d6d0d81e37b583c5",
+        "size_in_bytes": 105610
+      },
+      {
+        "_path": "lib/libmpifort.so.12",
+        "path_type": "softlink",
+        "sha256": "d9da12f666c66c1f027b24830061c16044aa6e16c4cba228358b5e3b168a7286",
+        "size_in_bytes": 2735439
+      },
+      {
+        "_path": "lib/libmpifort.so.12.0",
+        "path_type": "hardlink",
+        "sha256": "d9da12f666c66c1f027b24830061c16044aa6e16c4cba228358b5e3b168a7286",
+        "sha256_in_prefix": "d9da12f666c66c1f027b24830061c16044aa6e16c4cba228358b5e3b168a7286",
+        "size_in_bytes": 2735439
+      },
+      {
+        "_path": "lib/libmpitune.so.1.0",
+        "path_type": "hardlink",
+        "sha256": "e6200bb2da047b0668647e9f4f70b01207f71c77b992262567ccf2b09598102d",
+        "sha256_in_prefix": "e6200bb2da047b0668647e9f4f70b01207f71c77b992262567ccf2b09598102d",
+        "size_in_bytes": 2326152
+      },
+      {
+        "_path": "lib/libtmi.so.1.2",
+        "path_type": "hardlink",
+        "sha256": "6538da1e757d26df3b0d9da0d61013cd1639254b46a9a68e63ab1ffd69e69de5",
+        "sha256_in_prefix": "6538da1e757d26df3b0d9da0d61013cd1639254b46a9a68e63ab1ffd69e69de5",
+        "size_in_bytes": 14666
+      },
+      {
+        "_path": "lib/libtmip_mx.so.1.0",
+        "path_type": "hardlink",
+        "sha256": "c0a0c9565ca68680aa7620cdf04a59f671be7ff6c9c3ea6c47ef6b8f5a542efe",
+        "sha256_in_prefix": "c0a0c9565ca68680aa7620cdf04a59f671be7ff6c9c3ea6c47ef6b8f5a542efe",
+        "size_in_bytes": 16269
+      },
+      {
+        "_path": "lib/libtmip_psm.so.1.2",
+        "path_type": "hardlink",
+        "sha256": "81c59d6594f124c3a48e4ae3d96751ffe22886ef501520eed71968fab3640ec1",
+        "sha256_in_prefix": "81c59d6594f124c3a48e4ae3d96751ffe22886ef501520eed71968fab3640ec1",
+        "size_in_bytes": 16662
+      },
+      {
+        "_path": "lib/libtmip_psm2.so.1.0",
+        "path_type": "hardlink",
+        "sha256": "3840c2e182180a7e75cb84674fbae5c05c44fa243f7e9f3ff7dc7eecf93000d8",
+        "sha256_in_prefix": "3840c2e182180a7e75cb84674fbae5c05c44fa243f7e9f3ff7dc7eecf93000d8",
+        "size_in_bytes": 18314
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 10173703,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/intel/linux-64/impi_rt-2018.0.3-intel_0.tar.bz2",
+  "version": "2018.0.3"
+}

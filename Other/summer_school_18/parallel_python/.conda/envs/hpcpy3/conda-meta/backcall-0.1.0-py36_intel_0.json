@@ -1,0 +1,125 @@
+{
+  "arch": "x86_64",
+  "build": "py36_intel_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/intel/linux-64",
+  "constrains": [],
+  "depends": [
+    "intelpython",
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/backcall-0.1.0-py36_intel_0",
+  "features": "intel",
+  "files": [
+    "lib/python3.6/site-packages/backcall-0.1.0.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/backcall-0.1.0.dist-info/METADATA",
+    "lib/python3.6/site-packages/backcall-0.1.0.dist-info/RECORD",
+    "lib/python3.6/site-packages/backcall-0.1.0.dist-info/WHEEL",
+    "lib/python3.6/site-packages/backcall-0.1.0.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/backcall/__init__.py",
+    "lib/python3.6/site-packages/backcall/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/backcall/__pycache__/_signatures.cpython-36.pyc",
+    "lib/python3.6/site-packages/backcall/__pycache__/backcall.cpython-36.pyc",
+    "lib/python3.6/site-packages/backcall/_signatures.py",
+    "lib/python3.6/site-packages/backcall/backcall.py"
+  ],
+  "fn": "backcall-0.1.0-py36_intel_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/backcall-0.1.0-py36_intel_0",
+    "type": 1
+  },
+  "md5": "30e662e967cfbf92f8e889100627fbe4",
+  "name": "backcall",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/backcall-0.1.0-py36_intel_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/backcall-0.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python3.6/site-packages/backcall-0.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "cff730c1722c7069c90994cc9bb50a59d4cb5d85f89d456cfb92390230d493e4",
+        "sha256_in_prefix": "cff730c1722c7069c90994cc9bb50a59d4cb5d85f89d456cfb92390230d493e4",
+        "size_in_bytes": 2114
+      },
+      {
+        "_path": "lib/python3.6/site-packages/backcall-0.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "291b7d2fecbc54566b8dd7e5d3ec5f48a8a81fbcc7a26bac0555ec2c3d5c257b",
+        "sha256_in_prefix": "291b7d2fecbc54566b8dd7e5d3ec5f48a8a81fbcc7a26bac0555ec2c3d5c257b",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "lib/python3.6/site-packages/backcall-0.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a19d12489d8bc985a6a346822517846d78612cd55842cec883c79015cb6ee4d2",
+        "sha256_in_prefix": "a19d12489d8bc985a6a346822517846d78612cd55842cec883c79015cb6ee4d2",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/python3.6/site-packages/backcall-0.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d647befcb4ea8484fc7abaf67f6ada9ce3baaae1dbc94f8be73a7781caa6e980",
+        "sha256_in_prefix": "d647befcb4ea8484fc7abaf67f6ada9ce3baaae1dbc94f8be73a7781caa6e980",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.6/site-packages/backcall/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a400e82cd08d8b77c2948b3f41d6e0cc25d5e5e42565e848830a5b1559e31c41",
+        "sha256_in_prefix": "a400e82cd08d8b77c2948b3f41d6e0cc25d5e5e42565e848830a5b1559e31c41",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/python3.6/site-packages/backcall/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "137bd9c20b2ca50ed06af2b9523c2cd7294eba023703dfc245ddffad49489fa1",
+        "sha256_in_prefix": "137bd9c20b2ca50ed06af2b9523c2cd7294eba023703dfc245ddffad49489fa1",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/python3.6/site-packages/backcall/__pycache__/_signatures.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "988f495e4ae3eff4640c6d3f21801ce0996bbad2c398e137466c5ca141ab121f",
+        "sha256_in_prefix": "988f495e4ae3eff4640c6d3f21801ce0996bbad2c398e137466c5ca141ab121f",
+        "size_in_bytes": 17565
+      },
+      {
+        "_path": "lib/python3.6/site-packages/backcall/__pycache__/backcall.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed52de785a6045fdac8e0ab3d8644760c0fce0dce90c0d39032b87bbd5fbb8c6",
+        "sha256_in_prefix": "ed52de785a6045fdac8e0ab3d8644760c0fce0dce90c0d39032b87bbd5fbb8c6",
+        "size_in_bytes": 2677
+      },
+      {
+        "_path": "lib/python3.6/site-packages/backcall/_signatures.py",
+        "path_type": "hardlink",
+        "sha256": "cb7a71fdf4c5559332f3e9b04cebd2c6538e68b51d1c9985dfb93b46ff4d5eed",
+        "sha256_in_prefix": "cb7a71fdf4c5559332f3e9b04cebd2c6538e68b51d1c9985dfb93b46ff4d5eed",
+        "size_in_bytes": 29847
+      },
+      {
+        "_path": "lib/python3.6/site-packages/backcall/backcall.py",
+        "path_type": "hardlink",
+        "sha256": "0d0ccd5efe3b668a1af184d7e41135f51b8bc788f2ac4b105112531e1aa1738f",
+        "sha256_in_prefix": "0d0ccd5efe3b668a1af184d7e41135f51b8bc788f2ac4b105112531e1aa1738f",
+        "size_in_bytes": 3752
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 19615,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/intel/linux-64/backcall-0.1.0-py36_intel_0.tar.bz2",
+  "version": "0.1.0"
+}

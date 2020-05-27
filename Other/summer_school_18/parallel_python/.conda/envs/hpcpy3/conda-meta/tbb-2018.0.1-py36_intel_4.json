@@ -1,0 +1,223 @@
+{
+  "arch": "x86_64",
+  "build": "py36_intel_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/intel/linux-64",
+  "constrains": [],
+  "depends": [
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "/home/s/scinet/bmundim/.conda/pkgs/tbb-2018.0.1-py36_intel_4",
+  "features": "intel",
+  "files": [
+    "bin/python-tbb",
+    "lib/libirml.so",
+    "lib/libirml.so.1",
+    "lib/libtbb.so",
+    "lib/libtbb.so.2",
+    "lib/libtbbmalloc.so",
+    "lib/libtbbmalloc.so.2",
+    "lib/libtbbmalloc_proxy.so",
+    "lib/libtbbmalloc_proxy.so.2",
+    "lib/python3.6/site-packages/TBB-0.1-py3.6.egg-info",
+    "lib/python3.6/site-packages/TBB.py",
+    "lib/python3.6/site-packages/__pycache__/TBB.cpython-36.pyc",
+    "lib/python3.6/site-packages/tbb/__init__.py",
+    "lib/python3.6/site-packages/tbb/__main__.py",
+    "lib/python3.6/site-packages/tbb/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/tbb/__pycache__/__main__.cpython-36.pyc",
+    "lib/python3.6/site-packages/tbb/__pycache__/api.cpython-36.pyc",
+    "lib/python3.6/site-packages/tbb/__pycache__/pool.cpython-36.pyc",
+    "lib/python3.6/site-packages/tbb/__pycache__/test.cpython-36.pyc",
+    "lib/python3.6/site-packages/tbb/_api.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/tbb/api.py",
+    "lib/python3.6/site-packages/tbb/pool.py",
+    "lib/python3.6/site-packages/tbb/test.py"
+  ],
+  "fn": "tbb-2018.0.1-py36_intel_4.tar.bz2",
+  "license": "Apache 2.0",
+  "link": {
+    "source": "/home/s/scinet/bmundim/.conda/pkgs/tbb-2018.0.1-py36_intel_4",
+    "type": 1
+  },
+  "md5": "4f4189bc15754adf31f8989113b8203c",
+  "name": "tbb",
+  "package_tarball_full_path": "/home/s/scinet/bmundim/.conda/pkgs/tbb-2018.0.1-py36_intel_4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/python-tbb",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "75ce14462f8418fc0813eac5c0700cc3b56391c4145e520976ed67b36668afb3",
+        "sha256_in_prefix": "dad4246c51dd44a43e60a1cac1c6f48208199d3216534782b5034ac3df9639c1",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "lib/libirml.so",
+        "path_type": "hardlink",
+        "sha256": "9734bdee909893391ed9440cbffd287e672392f7eda161864498b8981eafd807",
+        "sha256_in_prefix": "9734bdee909893391ed9440cbffd287e672392f7eda161864498b8981eafd807",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "lib/libirml.so.1",
+        "path_type": "hardlink",
+        "sha256": "03bdbefe4ed7ee750432dfb90fac9ec643cdea2f208f2def82990101f2f07e6c",
+        "sha256_in_prefix": "03bdbefe4ed7ee750432dfb90fac9ec643cdea2f208f2def82990101f2f07e6c",
+        "size_in_bytes": 347883
+      },
+      {
+        "_path": "lib/libtbb.so",
+        "path_type": "hardlink",
+        "sha256": "37b507cef26b47b7d1c2beefc91ec1e30d61b0e94073bebca780ac6870a62878",
+        "sha256_in_prefix": "37b507cef26b47b7d1c2beefc91ec1e30d61b0e94073bebca780ac6870a62878",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "lib/libtbb.so.2",
+        "path_type": "hardlink",
+        "sha256": "f936ed78c1d9780e27cc29bd2d10acdcf80bf106128d88699d17ed4971417532",
+        "sha256_in_prefix": "f936ed78c1d9780e27cc29bd2d10acdcf80bf106128d88699d17ed4971417532",
+        "size_in_bytes": 2147248
+      },
+      {
+        "_path": "lib/libtbbmalloc.so",
+        "path_type": "hardlink",
+        "sha256": "448b633cc462b2fa3310154652c853715b0ae6d9f16bae04b0806a8e7bd42bdb",
+        "sha256_in_prefix": "448b633cc462b2fa3310154652c853715b0ae6d9f16bae04b0806a8e7bd42bdb",
+        "size_in_bytes": 26
+      },
+      {
+        "_path": "lib/libtbbmalloc.so.2",
+        "path_type": "hardlink",
+        "sha256": "7a69f5d9698b3b4fb11482b3436006e71e4a64f6fa724993937c350431d98d8d",
+        "sha256_in_prefix": "7a69f5d9698b3b4fb11482b3436006e71e4a64f6fa724993937c350431d98d8d",
+        "size_in_bytes": 788936
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.so",
+        "path_type": "hardlink",
+        "sha256": "7299a1b4c0770f59b55f4e1a1163d7212b07bd0160aaea1e1e6ffa4168b6f5b9",
+        "sha256_in_prefix": "7299a1b4c0770f59b55f4e1a1163d7212b07bd0160aaea1e1e6ffa4168b6f5b9",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "lib/libtbbmalloc_proxy.so.2",
+        "path_type": "hardlink",
+        "sha256": "bb50c33182214c5128f5343cd69ddd90e45ff133b62431e050fe9b5a124d5c42",
+        "sha256_in_prefix": "bb50c33182214c5128f5343cd69ddd90e45ff133b62431e050fe9b5a124d5c42",
+        "size_in_bytes": 34672
+      },
+      {
+        "_path": "lib/python3.6/site-packages/TBB-0.1-py3.6.egg-info",
+        "path_type": "hardlink",
+        "sha256": "c799d72ddb02f69f1fe2ed1620035890f1825511443121f907b84d9fa84d0748",
+        "sha256_in_prefix": "c799d72ddb02f69f1fe2ed1620035890f1825511443121f907b84d9fa84d0748",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "lib/python3.6/site-packages/TBB.py",
+        "path_type": "hardlink",
+        "sha256": "2f00135bcd312cd5816265cf45204777345899e3301d69046d6b6c567b15564c",
+        "sha256_in_prefix": "2f00135bcd312cd5816265cf45204777345899e3301d69046d6b6c567b15564c",
+        "size_in_bytes": 766
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/TBB.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "24a652c66e495144a3d684f5d2044f8be2f109f16406d8474abdde4759bbaaf3",
+        "sha256_in_prefix": "24a652c66e495144a3d684f5d2044f8be2f109f16406d8474abdde4759bbaaf3",
+        "size_in_bytes": 278
+      },
+      {
+        "_path": "lib/python3.6/site-packages/tbb/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "95071c742299e1a7505b01842a09f5fbd3338e49045045f5a96e71e2175d96e1",
+        "sha256_in_prefix": "95071c742299e1a7505b01842a09f5fbd3338e49045045f5a96e71e2175d96e1",
+        "size_in_bytes": 12469
+      },
+      {
+        "_path": "lib/python3.6/site-packages/tbb/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "b84f70e32cf6b20403f7efbd9f47c56d9563d1203223ee529af96b66d2824ee1",
+        "sha256_in_prefix": "b84f70e32cf6b20403f7efbd9f47c56d9563d1203223ee529af96b66d2824ee1",
+        "size_in_bytes": 679
+      },
+      {
+        "_path": "lib/python3.6/site-packages/tbb/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e85168bfa5db16b9a86713a8331688b4dda4166103573b92c3fd71ed8bf32d6",
+        "sha256_in_prefix": "8e85168bfa5db16b9a86713a8331688b4dda4166103573b92c3fd71ed8bf32d6",
+        "size_in_bytes": 10415
+      },
+      {
+        "_path": "lib/python3.6/site-packages/tbb/__pycache__/__main__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9ecc391909e1396373790b55a87680ea333d3e39df69b944b30faf11832708d4",
+        "sha256_in_prefix": "9ecc391909e1396373790b55a87680ea333d3e39df69b944b30faf11832708d4",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "lib/python3.6/site-packages/tbb/__pycache__/api.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba3123a77157379cc0240c444ea11b2188a7a7bf332341b8985316c901abeec4",
+        "sha256_in_prefix": "ba3123a77157379cc0240c444ea11b2188a7a7bf332341b8985316c901abeec4",
+        "size_in_bytes": 7356
+      },
+      {
+        "_path": "lib/python3.6/site-packages/tbb/__pycache__/pool.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "444cc73b776fb17302525797c3b37fbef8803df93602682ed769c727c993f026",
+        "sha256_in_prefix": "444cc73b776fb17302525797c3b37fbef8803df93602682ed769c727c993f026",
+        "size_in_bytes": 22565
+      },
+      {
+        "_path": "lib/python3.6/site-packages/tbb/__pycache__/test.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "25e85e02ef33f56753a568977c5a6797c32b695b829fee77ae480ffae12a4594",
+        "sha256_in_prefix": "25e85e02ef33f56753a568977c5a6797c32b695b829fee77ae480ffae12a4594",
+        "size_in_bytes": 3426
+      },
+      {
+        "_path": "lib/python3.6/site-packages/tbb/_api.cpython-36m-x86_64-linux-gnu.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/workdir/conda-build/tbb_1518427776494/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "4bf8bad0088a642906103527ffec0b2a1b7932da5ed6489a916598e06c6afbd7",
+        "sha256_in_prefix": "42ab61b77579c0c0afd7e79e755dd5ea931d898d34ab38c74c449511b2e4d761",
+        "size_in_bytes": 556760
+      },
+      {
+        "_path": "lib/python3.6/site-packages/tbb/api.py",
+        "path_type": "hardlink",
+        "sha256": "90f22f069936b5f980c5c9a99645760e9aa2f81a36b893e79b0c292f19375145",
+        "sha256_in_prefix": "90f22f069936b5f980c5c9a99645760e9aa2f81a36b893e79b0c292f19375145",
+        "size_in_bytes": 7797
+      },
+      {
+        "_path": "lib/python3.6/site-packages/tbb/pool.py",
+        "path_type": "hardlink",
+        "sha256": "1e589a9e8a3ff123bbf1edfd6189efa8c641a13dbca4bba903c65df55e7a8e12",
+        "sha256_in_prefix": "1e589a9e8a3ff123bbf1edfd6189efa8c641a13dbca4bba903c65df55e7a8e12",
+        "size_in_bytes": 25163
+      },
+      {
+        "_path": "lib/python3.6/site-packages/tbb/test.py",
+        "path_type": "hardlink",
+        "sha256": "0f78c7cef1d2bd12edeaa6cbeb90f4abd930f2d03d592c4a828e50fbbb9ce462",
+        "sha256_in_prefix": "0f78c7cef1d2bd12edeaa6cbeb90f4abd930f2d03d592c4a828e50fbbb9ce462",
+        "size_in_bytes": 6490
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 1213184,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/intel/linux-64/tbb-2018.0.1-py36_intel_4.tar.bz2",
+  "version": "2018.0.1"
+}

@@ -1,0 +1,57 @@
+# Makefile for the parallel python codes
+# Ramses van Zon
+# SciNetHPC, 2016
+
+TIME=time -p
+PRINT=./print
+PYTHON=python
+MPIRUN=mpirun
+MPIRUNOPT=-np 3
+RM=\rm -f
+RMD=\rm -rf
+
+all: run_summer_serial run_summer_threaded run_summer_multiprocessing run_summer_multiprocessing_pool run_exnumexpr run_mpi4py_hello_world run_diff2d_numpy run_diff2d_numexpr run_diff2d_theano run_exnumexpr_profile run_profileme
+
+.PHONY: all allexamples pythonexamples
+
+run_summer_serial: summer_serial.py summer.py
+	$(TIME) $(PYTHON) $<
+
+run_summer_threaded: summer_threaded.py summer.py
+	$(TIME) $(PYTHON) $<
+
+run_summer_multiprocessing: summer_multiprocessing.py summer.py
+	$(TIME) $(PYTHON) $<
+
+run_summer_multiprocessing_pool: summer_multiprocessing_pool.py summer.py
+	$(TIME) $(PYTHON) $<
+
+run_exnumexpr: exnumexpr.py
+	$(TIME) $(PYTHON) $<
+
+run_exnumexpr_profile: exnumexpr_profile.py
+	$(PYTHON) -m memory_profiler $<
+	kernprof -l -v $<
+
+run_profileme: profileme.py
+	$(PYTHON) -m memory_profiler $<
+	kernprof -l -v $<
+
+run_mpi4py_hello_world: mpi4py_hello_world.py
+	$(TIME) $(MPIRUN) $(MPIRUNOPT) $(PYTHON) $<
+
+run_diff2d: diff2d.py
+	$(TIME) $(PYTHON) $< 
+
+run_diff2d_numpy: diff2d_numpy.py
+	$(TIME) $(PYTHON) $< 
+
+run_diff2d_numexpr: diff2d_numexpr.py
+	$(TIME) $(PYTHON) $< 
+
+run_diff2d_theano: diff2d_theano.py
+	$(TIME) $(PYTHON) $< 
+
+clean:
+	$(RM) numexpr_profile.py.lprof profileme.py.lprof *.pyc
+	$(RMD) __pycache__ build

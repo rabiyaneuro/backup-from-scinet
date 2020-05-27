@@ -1,0 +1,34 @@
+
+scontrol show jobid 1741784
+JobId=1741784 JobName=debugjob-1-noorir
+   UserId=noorir(3060618) GroupId=lfefebvr(6005718) MCS_label=N/A
+   Priority=11616027 Nice=0 Account=def-lfefebvr QOS=normal
+   JobState=COMPLETING Reason=TimeLimit Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=0 Reboot=0 ExitCode=0:0
+   RunTime=01:00:11 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2019-09-01T01:45:44 EligibleTime=2019-09-01T01:45:44
+   StartTime=2019-09-01T01:45:44 EndTime=2019-09-01T02:45:55 Deadline=N/A
+   PreemptTime=None SuspendTime=None SecsPreSuspend=0
+   LastSchedEval=2019-09-01T01:45:44
+   Partition=debug AllocNode:Sid=nia-login03:188688
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=nia0041
+   BatchHost=nia0041
+   NumNodes=1 NumCPUs=80 NumTasks=40 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=80,node=1,billing=40
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=0 MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   Gres=(null) Reservation=(null)
+   OverSubscribe=NO Contiguous=0 Licenses=(null) Network=(null)
+   Command=(null)
+   WorkDir=/gpfs/fs0/scratch/l/lfefebvr/noorir/model
+   Power=
+   
+
+sacct -j 1741784
+       JobID    JobName    Account    Elapsed  MaxVMSize     MaxRSS  SystemCPU    UserCPU ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- ---------- ---------- -------- 
+1741784      debugjob-+ def-lfefe+   01:00:11                        03:42.760 1-06:05:13      0:0 
+1741784.ext+     extern def-lfefe+   01:00:11    168876K      1276K  00:00.001   00:00:00      0:0 
+1741784.0          bash def-lfefe+   01:00:38 371080540K   9780452K  03:42.759 1-06:05:13      0:9 

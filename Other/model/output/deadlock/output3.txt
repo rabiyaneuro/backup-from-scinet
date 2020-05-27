@@ -1,0 +1,4 @@
+[mpiexec@nia0051.scinet.local] Sending Ctrl-C to processes as requested
+[mpiexec@nia0051.scinet.local] Press Ctrl-C again to force abort
+Ctrl-C caught... cleaning up processes
+APPLICATION TERMINATED WITH THE EXIT STRING: job ending due to timeout = -1
